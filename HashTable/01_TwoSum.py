@@ -1,8 +1,6 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
 
-:w
-
 
 class Solution(object):
     def twoSum(self, nums, target):

@@ -17,7 +17,6 @@ class Solution(object):
         while x / 10 != 0:
             result = (result + x % 10) * 10
             x = x / 10
-
         result += x % 10
 
         if abs(result) > 2 ** 31 - 1:

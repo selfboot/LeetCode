@@ -12,8 +12,9 @@ class Solution(object):
         nums.sort()
         min_distance = 2 ** 31 - 1
         length = len(nums)
-        solution = 0                    # keep the sum of three nums
-        for i in range(length):
+        # keep the sum of three nums
+        solution = 0
+        for i in range(length-2):
             cur_num = nums[i]
             left = i + 1
             right = length - 1
@@ -38,3 +39,10 @@ class Solution(object):
                     return three_sum
 
         return solution
+
+"""
+[0,0,0]
+1
+[-1,-1,-1,-2,-3,1,2]
+5
+"""

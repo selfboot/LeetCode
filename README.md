@@ -1,4 +1,4 @@
-# 数组
+# Array
 
 * 41. First Missing Positive
 * 54. Spiral Matrix
@@ -7,54 +7,71 @@
 * 59. Spiral Matrix II
 * 66. Plus One
 
-# 字符串
+# String
 
 * 06. ZigZag Conversion
+* 08. String to Integer
+* 14. Longest Common Prefix
+* 17. Letter Combinations of a Phone Number
 * 58. Length of Last Word
 * 67. Add Binary
 * 68. Text Justification
 
-# 链表
+# Linked List
 
 * 02. Add Two Numbers
 * 61. Rotate List
 
-# Hash表
+# Hash Table
 
-* 01.Two Sum
-* 03.Longest Substring Without Repeating Characters
+* 01. Two Sum
+* 03. Longest Substring Without Repeating Characters
 
-# 二分搜索
+# Binary Search
+
 * 69. Sqrt(x)
 * 74. Search a 2D Matrix
 
-# 遍历（回溯）
+# Backtracking
+
 * 51. N-Queens
 * 52. N-Queens II
 
-# 动态规划
+# Dynamic Programming
+
 * 53. Maximum Subarray
 * 62. Unique Paths
 * 63. Unique Paths II
 * 70. Climbing Stairs
 * 72. Edit Distance
 
-# 贪心算法
+# Greedy
+
 * 55. Jump Game
 
-# 递归
+# Recursion
+
 * 60. Permutation Sequence
 
-# 栈
+# Stack
+
 * 71. Simplify Path
 
-# DFA
-* 65. Valid Number
+#  Two Pointers
 
-# 双指针
+* 11. Container With Most Water
+* 15. 3Sum
+* 16. 3Sum Closest
 * 75. Sort Colors
 
-# 数学
+# Math
 
 * 07. Reverse Integer
+* 09. Palindrome Number
+* 12. Integer to Roman
+* 13. Roman to Integer
 * 69. Sqrt(x)
+
+# DFA
+
+* 65. Valid Number

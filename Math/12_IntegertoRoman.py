@@ -39,3 +39,9 @@ class Solution(object):
             counter += 1
 
         return roman_str
+
+"""
+1
+100
+3999
+"""

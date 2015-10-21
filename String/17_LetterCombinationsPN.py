@@ -26,7 +26,9 @@ class Solution(object):
             return []
 
         for i in range(1, len(digits)):
-            all_str = self.combination(all_str, phone_letters[ord(digits[i]) - ord("0")])
+            all_str = self.combination(
+                all_str,
+                phone_letters[ord(digits[i]) - ord("0")])
 
         return all_str
 
@@ -38,3 +40,9 @@ class Solution(object):
                 combine_str.append(a + b)
 
         return combine_str
+
+"""
+""
+"37"
+"1234"
+"""

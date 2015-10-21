@@ -9,10 +9,10 @@ class Solution(object):
         :rtype: int
         """
         negative = 1
-        mark = False
-        digit_already = False
+        mark = False                # Mark if has a '+' or '-'
+        digit_already = False       # Record if has numerical digits already.
         digit_char = "0123456789"
-        process_str = ""
+        result = 0
         for char in str:
             if char == " " and not mark and not digit_already:
                 continue
@@ -28,7 +28,7 @@ class Solution(object):
 
             if char in digit_char:
                 digit_already = True
-                process_str += char
+                result = result * 10 + ord(char) - ord('0')
                 continue
 
             if char not in digit_char and digit_already:
@@ -36,10 +36,6 @@ class Solution(object):
 
             if char not in digit_char and not digit_already:
                 return 0
-
-        result = 0
-        for char in process_str:
-            result = result * 10 + ord(char) - ord('0')
 
         result = result * negative
         if result > 2 ** 31 - 1:
@@ -49,3 +45,9 @@ class Solution(object):
             return -2147483648
 
         return result
+
+"""
+""
+"  12a"
+"  a12"
+"""

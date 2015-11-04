@@ -1,43 +1,42 @@
 # Array
 
-* 41. First Missing Positive
-* 54. Spiral Matrix
-* 56. Merge Intervals
-* 57. Insert Interval
-* 59. Spiral Matrix II
-* 66. Plus One
+* 41. [First Missing Positive](Array/41_FirstMissingPositive.py)
+* 54. [Spiral Matrix](Array/54_SpiralMatrix.py)
+* 56. [Merge Intervals](Array/56_MergeIntervals.py)
+* 57. [Insert Interval](Array/57_InsertInterval.py)
+* 59. [Spiral Matrix II](Array/59_SpiralMatrixII.py)
 
 # String
 
-* 06. ZigZag Conversion
-* 08. String to Integer
-* 14. Longest Common Prefix
-* 17. Letter Combinations of a Phone Number
+* 06. [ZigZag Conversion](String/06_ZigZagConversion.py)
+* 08. [String to Integer](String/08_StringtoInteger.py)
+* 14. [Longest Common Prefix](String/14_LongestCommonPrefix.py)
+* 17. [Letter Combinations of a Phone Number](String/17_LetterCombinationsPN.py)
 * 58. Length of Last Word
 * 67. Add Binary
 * 68. Text Justification
 
 # Linked List
 
-* 02. Add Two Numbers
+* 02. [Add Two Numbers](LinkedList/02.AddTwoNumbers.py)
 * 61. Rotate List
 * 82. Remove Duplicates from Sorted List II
 * 83. Remove Duplicates from Sorted List
 * 76. Minimum Window Substring
-* 92. Reverse Linked List II
+* 92. [Reverse Linked List II](LinkedList/92_ReverseLinkedListII.py)
 
 # Tree
 
-* 94. Binary Tree Inorder Traversa
-* 95. Unique Binary Search Trees II
-* 96. Unique Binary Search Trees
-* 100. Same Tree
+* 94. [Binary Tree Inorder Traversa](Tree/94_BinaryTreeInorderTraversal.py)
+* 95. [Unique Binary Search Trees II](Tree/95_UniqueBinarySearchTreesII.py)
+* 96. [Unique Binary Search Trees](Tree/96_UniqueBinarySearchTrees.py)
+* 100. [Same Tree](Tree/100_SameTree.py)
 	
 # Hash Table
 
-* 01. Two Sum
-* 18. `4Sum`
-* 03. Longest Substring Without Repeating Characters
+* 01. [Two Sum](HashTable/01_TwoSum.py)
+* 03. [Longest Substring Without Repeating Characters](HashTable/03_LongestSubstringWithoutRepeatingCharacters.py)
+* 18. [`4Sum`](HashTable/18_4Sum.py)
 
 # Binary Search
 
@@ -48,26 +47,29 @@
 
 # Depth-first Search
 
-* 98. Validate Binary Search Tree
+* 98. [Validate Binary Search Tree](DepthFirstSearch/98_ValidateBinarySearchTree.py)
 
 # Breadth-first Search
 
-* 102. Binary Tree Level Order Traversal    
-* 103. Binary Tree Zigzag Level OrderTraversal
-* 104. Maximum Depth Of BinaryTree
+* 102. [Binary Tree Level Order Traversal](BreadthFirstSearch/102_BinaryTreeLevelOrderTraversal.py)    
+* 103. [Binary Tree Zigzag Level OrderTraversal](BreadthFirstSearch/103_BinaryTreeZigzagLevelOrderTraversal.py)
+* 104. [Maximum Depth Of BinaryTree](BreadthFirstSearch/104_MaximumDepthOfBinaryTree.py)
 
 # Backtracking
 
 * 51. N-Queens
 * 52. N-Queens II
 * 79. Word Search
-* 90. Restore IP Addresses
+* 93. [Restore IP Addresses](Backtracking/93_RestoreIPAddresses.py)
 
 # Recursion
 
+* 60. Permutation Sequence
 * 77. Combinations
 * 87. Scramble String
-* 101. Symmetric Tree
+* 89. [Gray Code](Recursion/89_GrayCode.py)
+* 101. [Symmetric Tree](Recursion/101_SymmetricTree.py)
+
 
 # Dynamic Programming
 
@@ -76,39 +78,36 @@
 * 63. Unique Paths II
 * 70. Climbing Stairs
 * 72. Edit Distance
-* 91. Decode Ways
 * 87. `Scramble String`
+* 91. [Decode Ways](DynamicProgramming/91_DecodeWays.py)
 
 # Greedy
 
 * 55. Jump Game
 
-# Recursion
-
-* 60. Permutation Sequence
-
 # Stack
 
-* 71. Simplify Path
-* 84. Largest Rectangle in Histogram
-* 85. Maximal Rectangle
-* 94. Binary Tree Inorder Traversal
+* 71. [Simplify Path](Stack/71_SimplifyPath.py)
+* 84. [Largest Rectangle in Histogram](Stack/84_LargestRectangleInHistogram.py)
+* 85. [Maximal Rectangle](Stack/85_MaximalRectangle.py)
+* 94. [Binary Tree Inorder Traversal](Stack/94_BinaryTreeInorderTraversal.py)
 
 #  Two Pointers
 
-* 11. Container With Most Water
-* 15. 3Sum
-* 16. 3Sum Closest
-* 18. 4Sum
-* 75. Sort Colors
+* 11. [Container With Most Water](TwoPointers/11_ContainerWithMostWater.py)
+* 15. [3Sum](TwoPointers/15_3Sum.py)
+* 16. [3Sum Closest](TwoPointers/16_3SumClosest.py)
+* 18. [4Sum](TwoPointers/18_4Sum.py)
+* 75. [Sort Colors](TwoPointers/75_SortColors.py)
 * 80. Remove Duplicates from Sorted Array II
 
 # Math
 
-* 07. Reverse Integer
-* 09. Palindrome Number
-* 12. Integer to Roman
-* 13. Roman to Integer
+* 07. [Reverse Integer](Math/07_ReverseInteger.py)
+* 09. [Palindrome Number](Math/09_PalindromeNumber.py)
+* 12. [Integer to Roman](Math/12_IntegertoRoman.py)
+* 13. [Roman to Integer](Math/13_RomantoInteger.py)
+* 66. [Plus One](Math/66_PlusOne.py)
 * 69. Sqrt(x)
 
 # Bit Manipulation
@@ -117,5 +116,5 @@
 
 # DFA
 
-* 65. Valid Number
+* 65. [Valid Number](65_ValidNumber.py)
 

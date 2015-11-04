@@ -41,3 +41,10 @@ class Solution(object):
         if n % 2 == 1:
             matrix[n/2][n/2] = current_num
         return matrix
+
+"""
+0
+1
+3
+4
+"""

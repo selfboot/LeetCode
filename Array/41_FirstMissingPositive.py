@@ -26,3 +26,10 @@ class Solution(object):
                 return i + 1
 
         return nums_len + 1
+
+"""
+[]
+[1,2,0]
+[3,4,-1,1]
+[3,4,-1,1,2,2,0,12,3]
+"""

@@ -15,6 +15,7 @@ class Solution(object):
         digits[-1] = (digits[-1] + 1) % 10
 
         index = len(digits) - 2
+        # Every position is the sum of post position and carry_in mod 10
         while index >= 0:
             if digits[index] + carry_in == 10:
                 digits[index] = 0
@@ -25,9 +26,14 @@ class Solution(object):
                 carry_in = 0
                 break
 
+        # Add the pre carry in number.
         if carry_in and index == -1:
-            temp = [1]
-            temp.extend(digits)
-            digits = temp
+            digits.insert(0, 1)
 
         return digits
+
+"""
+[0]
+[1,2,3,4,5,6]
+[9,9,9,9,9,9]
+"""

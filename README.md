@@ -36,7 +36,7 @@
 
 * 01. [Two Sum](HashTable/01_TwoSum.py)
 * 03. [Longest Substring Without Repeating Characters](HashTable/03_LongestSubstringWithoutRepeatingCharacters.py)
-* 18. [`4Sum`](HashTable/18_4Sum.py)
+* 18. `4Sum`
 
 # Binary Search
 
@@ -92,12 +92,13 @@
 * 85. [Maximal Rectangle](Stack/85_MaximalRectangle.py)
 * 94. [Binary Tree Inorder Traversal](Stack/94_BinaryTreeInorderTraversal.py)
 
-#  Two Pointers
+#  [Two Pointers](TwoPointers/README.md)
 
 * 11. [Container With Most Water](TwoPointers/11_ContainerWithMostWater.py)
 * 15. [3Sum](TwoPointers/15_3Sum.py)
 * 16. [3Sum Closest](TwoPointers/16_3SumClosest.py)
 * 18. [4Sum](TwoPointers/18_4Sum.py)
+* 19. [Remove Nth Node From End of List](TwoPointers/19_RemoveNthNodeFromEndOfList.py)
 * 75. [Sort Colors](TwoPointers/75_SortColors.py)
 * 80. Remove Duplicates from Sorted Array II
 

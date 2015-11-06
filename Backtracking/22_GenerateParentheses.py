@@ -44,3 +44,10 @@ def generate_child_tree(self, node, n, solution):
         right_child = [None, None, node[2], node[3] + 1, node[4] + ")"]
         node[1] = right_child
         self.generate_child_tree(right_child, n, solution)
+
+"""
+0
+1
+3
+5
+"""

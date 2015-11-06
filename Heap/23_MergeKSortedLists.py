@@ -43,3 +43,8 @@ class Solution(object):
                 heapq.heappush(heap_record, (next_node.val, next_node))
 
         return head.next
+
+"""
+[]
+[[1,4,5,6,9], [2,3,4,5,6,8], [0,1,2,3,4], [2,2,2,2]]
+"""

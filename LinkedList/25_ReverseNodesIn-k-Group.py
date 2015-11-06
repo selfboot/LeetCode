@@ -65,3 +65,12 @@ class Solution(object):
         before_node.next = reversed_list_head
         reversed_list_tail.next = after_node
         return reversed_list_tail
+
+"""
+[]
+1
+[1]
+1
+[1,2,3,4,5,6,7,8,9]
+4
+"""

@@ -19,6 +19,9 @@
 # [Linked List](LinkedList/)
 
 * 02. [Add Two Numbers](LinkedList/02.AddTwoNumbers.py)
+* 21. [Merge Two Sorted Lists](LinkedList/21_MergeTwoSortedLists.py)
+* 24. [Swap Nodes in Pairs](LinkedList/24_SwapNodesInPairs.py)
+* 25. [Reverse Nodes in k-Group](LinkedList/25_ReverseNodesIn-k-Group.py)
 * 61. Rotate List
 * 82. Remove Duplicates from Sorted List II
 * 83. Remove Duplicates from Sorted List
@@ -37,6 +40,9 @@
 * 01. [Two Sum](HashTable/01_TwoSum.py)
 * 03. [Longest Substring Without Repeating Characters](HashTable/03_LongestSubstringWithoutRepeatingCharacters.py)
 * 18. `4Sum`
+
+# [Heap](Heap/)
+* 23. [Merge k Sorted Lists](Heap/23_MergeKSortedLists.py)
 
 # [Binary Search](BinarySearch/)
 
@@ -57,6 +63,7 @@
 
 # [Backtracking](Backtracking/)
 
+* 22. [Generate Parentheses](Backtracking/23_GenerateParentheses.py)
 * 51. N-Queens
 * 52. N-Queens II
 * 79. Word Search
@@ -87,6 +94,7 @@
 
 # [Stack](Stack/)
 
+* 20. [Valid Parentheses](Stack/20_ValidParentheses.py)
 * 71. [Simplify Path](Stack/71_SimplifyPath.py)
 * 84. [Largest Rectangle in Histogram](Stack/84_LargestRectangleInHistogram.py)
 * 85. [Maximal Rectangle](Stack/85_MaximalRectangle.py)
@@ -117,5 +125,5 @@
 
 # DFA
 
-* 65. [Valid Number](65_ValidNumber.py)
+* 65. [Valid Number](DFA/65_ValidNumber.py)
 

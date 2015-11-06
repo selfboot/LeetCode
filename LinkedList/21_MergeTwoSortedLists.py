@@ -47,3 +47,12 @@ class Solution(object):
             merged_list = merged_list.next
 
         return merged_head.next
+
+"""
+[]
+[]
+[1,4,8,12]
+[2,3]
+[1,3,5,7,9]
+[2,4,6,8,10]
+"""

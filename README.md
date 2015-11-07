@@ -34,6 +34,9 @@
 * 95. [Unique Binary Search Trees II](Tree/95_UniqueBinarySearchTreesII.py)
 * 96. [Unique Binary Search Trees](Tree/96_UniqueBinarySearchTrees.py)
 * 100. [Same Tree](Tree/100_SameTree.py)
+* 105. [Construct Binary Tree from Preorder and Inorder Traversal](Tree/105_ConstructBinaryTreePreorderInorder.py)
+* 106. [Construct Binary Tree from Inorder and Postorder Traversal](Tree/106_ConstructBinaryTreeInorderPostorder.py)
+* 110. [Balanced Binary Tree](Tree/110_BalancedBinaryTree.py)
 	
 # [Hash Table](HashTable/)
 

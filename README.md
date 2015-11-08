@@ -37,6 +37,10 @@
 * 105. [Construct Binary Tree from Preorder and Inorder Traversal](Tree/105_ConstructBinaryTreePreorderInorder.py)
 * 106. [Construct Binary Tree from Inorder and Postorder Traversal](Tree/106_ConstructBinaryTreeInorderPostorder.py)
 * 110. [Balanced Binary Tree](Tree/110_BalancedBinaryTree.py)
+* 111. [Minimum Depth of Binary Tree](Tree/111_MinimumDepthofBinaryTree.py)
+* 112. [Path Sum](Tree/112_PathSum.py)
+* 113. [Path Sum II](Tree/113_PathSumII.py)
+
 	
 # [Hash Table](HashTable/)
 

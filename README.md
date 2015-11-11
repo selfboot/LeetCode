@@ -40,6 +40,7 @@
 * 111. [Minimum Depth of Binary Tree](Tree/111_MinimumDepthofBinaryTree.py)
 * 112. [Path Sum](Tree/112_PathSum.py)
 * 113. [Path Sum II](Tree/113_PathSumII.py)
+* 114. [Flatten Binary Tree to Linked List](Tree/114_FlattenBinaryTreeToLinkedList.py)
 
 	
 # [Hash Table](HashTable/)

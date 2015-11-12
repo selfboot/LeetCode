@@ -1,5 +1,6 @@
 # [Array](Array/)
 
+* 26. [Remove Duplicates from Sorted Array](Array/26_RemoveDuplicatesFromSortedArray.py)
 * 41. [First Missing Positive](Array/41_FirstMissingPositive.py)
 * 54. [Spiral Matrix](Array/54_SpiralMatrix.py)
 * 56. [Merge Intervals](Array/56_MergeIntervals.py)

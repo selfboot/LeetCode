@@ -16,5 +16,11 @@ class Solution(object):
             if nums[i] != nums[removed_end]:
                 removed_end += 1
                 nums[removed_end] = nums[i]
-            i += 1
+
         return removed_end + 1
+
+"""
+[]
+[1,1,2,2,3]
+[1,3,5,8,9,9,9]
+"""

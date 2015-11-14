@@ -34,6 +34,7 @@
 * 94. [Binary Tree Inorder Traversa](Tree/94_BinaryTreeInorderTraversal.py)
 * 95. [Unique Binary Search Trees II](Tree/95_UniqueBinarySearchTreesII.py)
 * 96. [Unique Binary Search Trees](Tree/96_UniqueBinarySearchTrees.py)
+* 99. [Recover Binary Search Tree](Tree/99_RecoverBinarySearchTree.py)
 * 100. [Same Tree](Tree/100_SameTree.py)
 * 105. [Construct Binary Tree from Preorder and Inorder Traversal](Tree/105_ConstructBinaryTreePreorderInorder.py)
 * 106. [Construct Binary Tree from Inorder and Postorder Traversal](Tree/106_ConstructBinaryTreeInorderPostorder.py)
@@ -96,6 +97,7 @@
 * 72. Edit Distance
 * 87. `Scramble String`
 * 91. [Decode Ways](DynamicProgramming/91_DecodeWays.py)
+* 97. [Interleaving String](DynamicProgramming/97_InterleavingString.py)
 
 # [Greedy](Greedy/)
 

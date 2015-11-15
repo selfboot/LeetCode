@@ -38,6 +38,8 @@
 * 100. [Same Tree](Tree/100_SameTree.py)
 * 105. [Construct Binary Tree from Preorder and Inorder Traversal](Tree/105_ConstructBinaryTreePreorderInorder.py)
 * 106. [Construct Binary Tree from Inorder and Postorder Traversal](Tree/106_ConstructBinaryTreeInorderPostorder.py)
+* 108. [Convert Sorted Array to Binary Search Tree](Tree/108_ConvertSortedArrayToBinarySearchTree.py)
+* 109. [Convert Sorted List to Binary Search Tree](Tree/109_ConvertSortedListToBinarySearchTree.py)
 * 110. [Balanced Binary Tree](Tree/110_BalancedBinaryTree.py)
 * 111. [Minimum Depth of Binary Tree](Tree/111_MinimumDepthofBinaryTree.py)
 * 112. [Path Sum](Tree/112_PathSum.py)

@@ -11,13 +11,16 @@
 
 87. Scramble String
 
+> “When you see string problem that is about subsequence or matching, dynamic programming method should come to your mind naturally. ”
+
 
 # 如何设计
 
 `状态`：问题在某一时刻的情况的抽象。
 `状态转移方程`：问题从当前状态到下一状态（通常更接近我们要求解的状态，即目标状态）所经历步骤的抽象。
 设计动态规划算法的核心就是找到一个合适的状态转移方程，使我们能够从一个已知的初始状态经过状态转移方程到达目标状态。
+1. 分析求解问题的性质，定义问题在某一时刻的状态；2. 找到状态转移方程；
+3. 确定初始状态；
 
-1. 分析求解问题的性质，找出要求解的目标状态。2. 找到状态转移方程和初始状态
 
 

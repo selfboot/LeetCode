@@ -131,6 +131,7 @@
 * 019. [Remove Nth Node From End of List](TwoPointers/19_RemoveNthNodeFromEndOfList.py)
 * 075. [Sort Colors](TwoPointers/75_SortColors.py)
 * 080. Remove Duplicates from Sorted Array II
+* 125. [Valid Palindrome](TwoPointers/125_ValidPalindrome.py)
 
 # [Math](Math/)
 

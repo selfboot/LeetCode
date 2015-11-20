@@ -50,6 +50,7 @@
 * 114. [Flatten Binary Tree to Linked List](Tree/114_FlattenBinaryTreeToLinkedList.py)
 * 116. [Populating Next Right Pointers in Each Node](Tree/116_PopulatingNextRightPointersInEachNode.py)
 * 117. [Populating Next Right Pointers in Each Node II](Tree/117_PopulatingNextRightPointersInEachNodeII.py)
+* 124. [Binary Tree Maximum Path Sum](Tree/124_BinaryTreeMaximumPathSum.py)
 
 	
 # [Hash Table](HashTable/)
@@ -105,6 +106,7 @@
 * 087. `Scramble String`
 * 091. [Decode Ways](DynamicProgramming/91_DecodeWays.py)
 * 097. [Interleaving String](DynamicProgramming/97_InterleavingString.py)
+* 115. [Distinct Subsequences](DynamicProgramming/115_DistinctSubsequences.py)
 * 120. [Triangle](DynamicProgramming/120_Triangle.py)
 * 121. [Best Time to Buy and Sell Stock](DynamicProgramming/121_BestTimeToBuyAndSellStock.py)
 * 123. [Best Time to Buy and Sell Stock III](DynamicProgramming/123_BestTimeToBuyAndSellStockIII.py)

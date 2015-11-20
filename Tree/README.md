@@ -6,14 +6,6 @@
 # 树的实现
 
 
-# 二叉树的类别
-
-## 完美二叉树
-
-## 二叉搜索树
-
-## 平衡二叉搜索树
-
 # 树的操作
 
 树的操作基本上都有递归和非递归两个版本。
@@ -28,24 +20,25 @@
 ## 搜索
 
 深度优先搜索
+124
+
+
 广度优先搜索
 116, 117
 
 ## 构建
 
-构建二叉树：递归构建，找到当前根，然后递归求出左子树的根和右子树的根，并建立父子关系。如下面题目：
 
-* 108. [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problemset/algorithms/)
-
-
-恢复二叉树
+##  [二叉树](BinaryTree.md)
 
 
 
 
 
+参考资料
 
-
-
+[Tree (data structure)](https://en.wikipedia.org/wiki/Tree_(data_structure))
+[csci 210: Data Structures Trees](http://www.bowdoin.edu/~ltoma/teaching/cs210/spring09/Slides/210-Trees.pdf)
+[The Tree Data Model](http://infolab.stanford.edu/~ullman/focs/ch05.pdf)
 
 

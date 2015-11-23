@@ -58,6 +58,7 @@
 * 001. [Two Sum](HashTable/01_TwoSum.py)
 * 003. [Longest Substring Without Repeating Characters](HashTable/03_LongestSubstringWithoutRepeatingCharacters.py)
 * 018. `4Sum`
+* 128. [Longest Consecutive Sequence](HashTable/128_LongestConsecutiveSequence.py)
 
 # [Heap](Heap/)
 * 023. [Merge k Sorted Lists](Heap/23_MergeKSortedLists.py)
@@ -72,12 +73,14 @@
 # [Depth-first Search](DepthFirstSearch/)
 
 * 098. [Validate Binary Search Tree](DepthFirstSearch/98_ValidateBinarySearchTree.py)
+* 129. [Sum Root to Leaf Numbers](DepthFirstSearch/129_SumRootToLeafNumbers.py)
 
 # [Breadth-first Search](BreadthFirstSearch/)
 
 * 102. [Binary Tree Level Order Traversal](BreadthFirstSearch/102_BinaryTreeLevelOrderTraversal.py)    
 * 103. [Binary Tree Zigzag Level OrderTraversal](BreadthFirstSearch/103_BinaryTreeZigzagLevelOrderTraversal.py)
 * 104. [Maximum Depth Of BinaryTree](BreadthFirstSearch/104_MaximumDepthOfBinaryTree.py)
+* 127. [Word Ladder](BreadthFirstSearch/127_WordLadder.py)
 
 # [Backtracking](Backtracking/)
 

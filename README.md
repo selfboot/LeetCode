@@ -92,6 +92,7 @@
 * 052. N-Queens II
 * 079. Word Search
 * 093. [Restore IP Addresses](Backtracking/93_RestoreIPAddresses.py)
+* 131. [Palindrome Partitioning](Backtracking/131_PalindromePartitioning.py)
 
 # [Recursion](Recursion/)
 
@@ -116,6 +117,7 @@
 * 120. [Triangle](DynamicProgramming/120_Triangle.py)
 * 121. [Best Time to Buy and Sell Stock](DynamicProgramming/121_BestTimeToBuyAndSellStock.py)
 * 123. [Best Time to Buy and Sell Stock III](DynamicProgramming/123_BestTimeToBuyAndSellStockIII.py)
+* 132. [Palindrome Partitioning II](DynamicProgramming/132_PalindromePartitioningII.py)
 
 # [Greedy](Greedy/)
 

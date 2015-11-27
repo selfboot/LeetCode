@@ -118,11 +118,13 @@
 * 121. [Best Time to Buy and Sell Stock](DynamicProgramming/121_BestTimeToBuyAndSellStock.py)
 * 123. [Best Time to Buy and Sell Stock III](DynamicProgramming/123_BestTimeToBuyAndSellStockIII.py)
 * 132. [Palindrome Partitioning II](DynamicProgramming/132_PalindromePartitioningII.py)
+* 135. [Candy](DynamicProgramming/135_Candy.py)
 
 # [Greedy](Greedy/)
 
 * 055. Jump Game
 * 122. [Best Time to Buy and Sell Stock II](Greedy/122_BestTimeToBuyAndSellStockII.py)
+* 134. [Gas Station](Greedy/134_GasStation.py)
 
 # [Stack](Stack/)
 
@@ -155,6 +157,7 @@
 # [Bit Manipulation](BitManipulation/)
 
 * 078. Subsets
+* 136. [Single Number](BitManipulation/136_SingleNumber.py)
 
 # DFA
 

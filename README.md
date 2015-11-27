@@ -158,6 +158,7 @@
 
 * 078. Subsets
 * 136. [Single Number](BitManipulation/136_SingleNumber.py)
+* 137. [Single Number II](BitManipulation/137_SingleNumberII.py)
 
 # DFA
 

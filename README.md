@@ -75,6 +75,7 @@
 * 098. [Validate Binary Search Tree](DepthFirstSearch/98_ValidateBinarySearchTree.py)
 * 126. [Word Ladder II](DepthFirstSearch/126_WordLadderII.py)
 * 129. [Sum Root to Leaf Numbers](DepthFirstSearch/129_SumRootToLeafNumbers.py)
+* 140. [Word Break II](DepthFirstSearch/140_WordBreakII.py)
 
 # [Breadth-first Search](BreadthFirstSearch/)
 
@@ -119,6 +120,7 @@
 * 123. [Best Time to Buy and Sell Stock III](DynamicProgramming/123_BestTimeToBuyAndSellStockIII.py)
 * 132. [Palindrome Partitioning II](DynamicProgramming/132_PalindromePartitioningII.py)
 * 135. [Candy](DynamicProgramming/135_Candy.py)
+* 139. [Word Break](DynamicProgramming/139_WordBreak.py)
 
 # [Greedy](Greedy/)
 

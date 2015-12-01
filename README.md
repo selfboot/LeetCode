@@ -31,6 +31,7 @@
 * 083. Remove Duplicates from Sorted List
 * 076. Minimum Window Substring
 * 092. [Reverse Linked List II](LinkedList/92_ReverseLinkedListII.py)
+* 134. [Reorder List](LinkedList/143_ReorderList.py)
 
 # [Tree](Tree/)
 
@@ -51,6 +52,8 @@
 * 116. [Populating Next Right Pointers in Each Node](Tree/116_PopulatingNextRightPointersInEachNode.py)
 * 117. [Populating Next Right Pointers in Each Node II](Tree/117_PopulatingNextRightPointersInEachNodeII.py)
 * 124. [Binary Tree Maximum Path Sum](Tree/124_BinaryTreeMaximumPathSum.py)
+* 144. [Binary Tree Preorder Traversal](Tree/144_BinaryTreePreorderTraversal.py)
+* 145. [Binary Tree Postorder Traversal](Tree/145_BinaryTreePostorderTraversal.py)
 
 # [Hash Table](HashTable/)
 
@@ -58,6 +61,7 @@
 * 003. [Longest Substring Without Repeating Characters](HashTable/03_LongestSubstringWithoutRepeatingCharacters.py)
 * 018. `4Sum`
 * 128. [Longest Consecutive Sequence](HashTable/128_LongestConsecutiveSequence.py)
+* 146. [LRU Cache](HashTable/146_LRUCache_pythonic.py)
 
 # [Heap](Heap/)
 * 023. [Merge k Sorted Lists](Heap/23_MergeKSortedLists.py)
@@ -162,6 +166,10 @@
 * 078. Subsets
 * 136. [Single Number](BitManipulation/136_SingleNumber.py)
 * 137. [Single Number II](BitManipulation/137_SingleNumberII.py)
+
+# Combination
+
+* 146. [LRU Cache](Combination/146_LRUCache.py)
 
 # DFA
 

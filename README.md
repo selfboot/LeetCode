@@ -18,6 +18,7 @@
 * 058. Length of Last Word
 * 067. Add Binary
 * 068. Text Justification
+* 151. [Reverse Words in a String](String/151_ReverseWordsInString.py)
 
 
 # [Linked List](LinkedList/)
@@ -32,6 +33,8 @@
 * 076. Minimum Window Substring
 * 092. [Reverse Linked List II](LinkedList/92_ReverseLinkedListII.py)
 * 134. [Reorder List](LinkedList/143_ReorderList.py)
+* 147. [Insertion Sort List](LinkedList/147_InsertionSortList.py)
+* 148. [Sort List](LinkedList/148_SortList.py)
 
 # [Tree](Tree/)
 
@@ -62,6 +65,7 @@
 * 018. `4Sum`
 * 128. [Longest Consecutive Sequence](HashTable/128_LongestConsecutiveSequence.py)
 * 146. [LRU Cache](HashTable/146_LRUCache_pythonic.py)
+* 149. [Max Points on a Line](HashTable/149_MaxPointsOnLine.py)
 
 # [Heap](Heap/)
 * 023. [Merge k Sorted Lists](Heap/23_MergeKSortedLists.py)
@@ -124,6 +128,7 @@
 * 132. [Palindrome Partitioning II](DynamicProgramming/132_PalindromePartitioningII.py)
 * 135. [Candy](DynamicProgramming/135_Candy.py)
 * 139. [Word Break](DynamicProgramming/139_WordBreak.py)
+* 152. [Maximum Product Subarray](working/152_MaximumProductSubarray.py)
 
 # [Greedy](Greedy/)
 
@@ -138,6 +143,7 @@
 * 084. [Largest Rectangle in Histogram](Stack/84_LargestRectangleInHistogram.py)
 * 085. [Maximal Rectangle](Stack/85_MaximalRectangle.py)
 * 094. [Binary Tree Inorder Traversal](Stack/94_BinaryTreeInorderTraversal.py)
+* 150. [Evaluate Reverse Polish Notation](Stack/150_EvaluateReversePolishNotation.py)
 
 #  [Two Pointers](TwoPointers/)
 

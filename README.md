@@ -8,6 +8,7 @@
 * 059. [Spiral Matrix II](Array/59_SpiralMatrixII.py)
 * 118. [Pascal's Triangle](Array/118_PascalTriangle.py)
 * 119. [Pascal's Triangle II](Array/119_PascalTriangleII.py) 
+* 164. [Maximum Gap](Array/164_MaximumGap.py)
 
 # [String](String/)
 
@@ -19,6 +20,7 @@
 * 067. Add Binary
 * 068. Text Justification
 * 151. [Reverse Words in a String](String/151_ReverseWordsInString.py)
+* 165. [Compare Version Numbers](String/165_CompareVersionNumbers.py)
 
 
 # [Linked List](LinkedList/)
@@ -35,6 +37,7 @@
 * 134. [Reorder List](LinkedList/143_ReorderList.py)
 * 147. [Insertion Sort List](LinkedList/147_InsertionSortList.py)
 * 148. [Sort List](LinkedList/148_SortList.py)
+* 160. [Intersection of Two Linked Lists](LinkedList/160_IntersectionOfTwoLinkedLists.py)
 
 # [Tree](Tree/)
 
@@ -144,6 +147,7 @@
 * 085. [Maximal Rectangle](Stack/85_MaximalRectangle.py)
 * 094. [Binary Tree Inorder Traversal](Stack/94_BinaryTreeInorderTraversal.py)
 * 150. [Evaluate Reverse Polish Notation](Stack/150_EvaluateReversePolishNotation.py)
+* 155. [Min Stack](Stack/155_MinStack.py)
 
 #  [Two Pointers](TwoPointers/)
 

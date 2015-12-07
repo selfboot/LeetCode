@@ -170,12 +170,16 @@
 * 013. [Roman to Integer](Math/13_RomantoInteger.py)
 * 066. [Plus One](Math/66_PlusOne.py)
 * 069. Sqrt(x)
+* 166. [Fraction to Recurring Decimal](Math/166_FractionToRecurringDecimal.py)
+* 168. [Excel Sheet Column Title](Math/168_ExcelSheetColumnTitle.py)
+* 171. [Excel Sheet Column Number](Math/171_ExcelSheetColumnNumber.py)
 
 # [Bit Manipulation](BitManipulation/)
 
 * 078. Subsets
 * 136. [Single Number](BitManipulation/136_SingleNumber.py)
 * 137. [Single Number II](BitManipulation/137_SingleNumberII.py)
+* 169. [Majority Element](BitManipulation/169_MajorityElement.py)
 
 # Combination
 

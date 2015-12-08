@@ -60,6 +60,7 @@
 * 124. [Binary Tree Maximum Path Sum](Tree/124_BinaryTreeMaximumPathSum.py)
 * 144. [Binary Tree Preorder Traversal](Tree/144_BinaryTreePreorderTraversal.py)
 * 145. [Binary Tree Postorder Traversal](Tree/145_BinaryTreePostorderTraversal.py)
+* 173. [Binary Search Tree Iterator](Tree/173_BinarySearchTreeIterator.py)
 
 # [Hash Table](HashTable/)
 
@@ -132,6 +133,7 @@
 * 135. [Candy](DynamicProgramming/135_Candy.py)
 * 139. [Word Break](DynamicProgramming/139_WordBreak.py)
 * 152. [Maximum Product Subarray](working/152_MaximumProductSubarray.py)
+* 174. [Dungeon Game](DynamicProgramming/174_DungeonGame.py)
 
 # [Greedy](Greedy/)
 
@@ -173,6 +175,8 @@
 * 166. [Fraction to Recurring Decimal](Math/166_FractionToRecurringDecimal.py)
 * 168. [Excel Sheet Column Title](Math/168_ExcelSheetColumnTitle.py)
 * 171. [Excel Sheet Column Number](Math/171_ExcelSheetColumnNumber.py)
+* 172. [Factorial Trailing Zeroes](Math/172_FactorialTrailingZeroes.py)
+* 179. [Largest Number](Math/179_LargestNumber.py)
 
 # [Bit Manipulation](BitManipulation/)
 

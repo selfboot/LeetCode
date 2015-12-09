@@ -70,6 +70,7 @@
 * 128. [Longest Consecutive Sequence](HashTable/128_LongestConsecutiveSequence.py)
 * 146. [LRU Cache](HashTable/146_LRUCache_pythonic.py)
 * 149. [Max Points on a Line](HashTable/149_MaxPointsOnLine.py)
+* 187. [Repeated DNA Sequences](HashTable/187_RepeatedDNASequences.py)
 
 # [Heap](Heap/)
 * 023. [Merge k Sorted Lists](Heap/23_MergeKSortedLists.py)

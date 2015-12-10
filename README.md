@@ -9,6 +9,7 @@
 * 118. [Pascal's Triangle](Array/118_PascalTriangle.py)
 * 119. [Pascal's Triangle II](Array/119_PascalTriangleII.py) 
 * 164. [Maximum Gap](Array/164_MaximumGap.py)
+* 189. [Rotate Array](Array/189_RotateArray.py)
 
 # [String](String/)
 

@@ -23,7 +23,6 @@
 * 151. [Reverse Words in a String](String/151_ReverseWordsInString.py)
 * 165. [Compare Version Numbers](String/165_CompareVersionNumbers.py)
 
-
 # [Linked List](LinkedList/)
 
 * 002. [Add Two Numbers](LinkedList/02.AddTwoNumbers.py)
@@ -186,6 +185,7 @@
 * 136. [Single Number](BitManipulation/136_SingleNumber.py)
 * 137. [Single Number II](BitManipulation/137_SingleNumberII.py)
 * 169. [Majority Element](BitManipulation/169_MajorityElement.py)
+* 109. [Reverse Bits](BitManipulation/190_ReverseBits.py)
 
 # Combination
 

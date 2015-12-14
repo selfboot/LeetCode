@@ -135,6 +135,7 @@
 * 139. [Word Break](DynamicProgramming/139_WordBreak.py)
 * 152. [Maximum Product Subarray](working/152_MaximumProductSubarray.py)
 * 174. [Dungeon Game](DynamicProgramming/174_DungeonGame.py)
+* 198. [House Robber](DynamicProgramming/198_HouseRobber.py)
 
 # [Greedy](Greedy/)
 
@@ -185,7 +186,8 @@
 * 136. [Single Number](BitManipulation/136_SingleNumber.py)
 * 137. [Single Number II](BitManipulation/137_SingleNumberII.py)
 * 169. [Majority Element](BitManipulation/169_MajorityElement.py)
-* 109. [Reverse Bits](BitManipulation/190_ReverseBits.py)
+* 190. [Reverse Bits](BitManipulation/190_ReverseBits.py)
+* 191. [Number of 1 Bits](BitManipulation/191_NumberOf1Bits.py)
 
 # Combination
 

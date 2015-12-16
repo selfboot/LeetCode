@@ -35,6 +35,7 @@
 * 076. Minimum Window Substring
 * 092. [Reverse Linked List II](LinkedList/92_ReverseLinkedListII.py)
 * 134. [Reorder List](LinkedList/143_ReorderList.py)
+* 138. [Copy List with Random Pointer](LinkedList/138_CopyListWithRandomPointer.py)
 * 147. [Insertion Sort List](LinkedList/147_InsertionSortList.py)
 * 148. [Sort List](LinkedList/148_SortList.py)
 * 160. [Intersection of Two Linked Lists](LinkedList/160_IntersectionOfTwoLinkedLists.py)
@@ -88,6 +89,7 @@
 * 126. [Word Ladder II](DepthFirstSearch/126_WordLadderII.py)
 * 129. [Sum Root to Leaf Numbers](DepthFirstSearch/129_SumRootToLeafNumbers.py)
 * 140. [Word Break II](DepthFirstSearch/140_WordBreakII.py)
+* 200. [Number of Islands](DepthFirstSearch/200_NumberofIslands.py)
 
 # [Breadth-first Search](BreadthFirstSearch/)
 
@@ -97,6 +99,7 @@
 * 126. [Word Ladder II](BreadthFirstSearch/126_WordLadderII.py)
 * 127. [Word Ladder](BreadthFirstSearch/127_WordLadder.py)
 * 130. [Surrounded Regions](BreadthFirstSearch/130_SurroundedRegions.py)
+* 199. [Binary Tree Right Side View](BreadthFirstSearch/199_BinaryTreeRightSideView.py)
 
 # [Backtracking](Backtracking/)
 
@@ -135,6 +138,7 @@
 * 139. [Word Break](DynamicProgramming/139_WordBreak.py)
 * 152. [Maximum Product Subarray](working/152_MaximumProductSubarray.py)
 * 174. [Dungeon Game](DynamicProgramming/174_DungeonGame.py)
+* 188. [Best Time to Buy and Sell Stock IV](DynamicProgramming/188_BestTimeBuySellStockIV.py)
 * 198. [House Robber](DynamicProgramming/198_HouseRobber.py)
 
 # [Greedy](Greedy/)

@@ -183,6 +183,7 @@
 * 171. [Excel Sheet Column Number](Math/171_ExcelSheetColumnNumber.py)
 * 172. [Factorial Trailing Zeroes](Math/172_FactorialTrailingZeroes.py)
 * 179. [Largest Number](Math/179_LargestNumber.py)
+* 202. [Happy Number](Math/202_HappyNumber.py)
 
 # [Bit Manipulation](BitManipulation/)
 
@@ -192,6 +193,7 @@
 * 169. [Majority Element](BitManipulation/169_MajorityElement.py)
 * 190. [Reverse Bits](BitManipulation/190_ReverseBits.py)
 * 191. [Number of 1 Bits](BitManipulation/191_NumberOf1Bits.py)
+* 201. [Bitwise AND of Numbers Range](BitManipulation/201_BitwiseANDofNumbersRange.py)
 
 # Combination
 

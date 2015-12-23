@@ -39,6 +39,7 @@
 * 147. [Insertion Sort List](LinkedList/147_InsertionSortList.py)
 * 148. [Sort List](LinkedList/148_SortList.py)
 * 160. [Intersection of Two Linked Lists](LinkedList/160_IntersectionOfTwoLinkedLists.py)
+* 203. [Remove Linked List Elements](LinkedList/203_RemoveLinkedListElements.py)
 
 # [Tree](Tree/)
 
@@ -72,6 +73,7 @@
 * 146. [LRU Cache](HashTable/146_LRUCache_pythonic.py)
 * 149. [Max Points on a Line](HashTable/149_MaxPointsOnLine.py)
 * 187. [Repeated DNA Sequences](HashTable/187_RepeatedDNASequences.py)
+* 205. [Isomorphic Strings](HashTable/205_IsomorphicStrings.py)
 
 # [Heap](Heap/)
 * 023. [Merge k Sorted Lists](Heap/23_MergeKSortedLists.py)
@@ -184,6 +186,7 @@
 * 172. [Factorial Trailing Zeroes](Math/172_FactorialTrailingZeroes.py)
 * 179. [Largest Number](Math/179_LargestNumber.py)
 * 202. [Happy Number](Math/202_HappyNumber.py)
+* 204. [Count Primes](Math/204_CountPrimes.py)
 
 # [Bit Manipulation](BitManipulation/)
 

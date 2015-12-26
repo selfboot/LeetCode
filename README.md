@@ -63,6 +63,8 @@
 * 144. [Binary Tree Preorder Traversal](Tree/144_BinaryTreePreorderTraversal.py)
 * 145. [Binary Tree Postorder Traversal](Tree/145_BinaryTreePostorderTraversal.py)
 * 173. [Binary Search Tree Iterator](Tree/173_BinarySearchTreeIterator.py)
+* 211. [Add and Search Word](211_AddandSearchWord.py)
+* 226. [Invert Binary Tree](Tree/226_InvertBinaryTree.py)
 
 # [Hash Table](HashTable/)
 
@@ -171,6 +173,7 @@
 * 125. [Valid Palindrome](TwoPointers/125_ValidPalindrome.py)
 * 141. [Linked List Cycle](TwoPointers/141_LinkedListCycle.py)
 * 142. [Linked List Cycle II](TwoPointers/142_LinkedListCycleII.py)
+* 209. [Minimum Size Subarray Sum](TwoPointers/209_MinimumSizeSubarraySum.py)
 
 # [Math](Math/)
 
@@ -202,6 +205,7 @@
 
 * 133. [Clone Graph](Graph/133_CloneGraph.py)
 * 207. [Course Schedule](Graph/207_CourseSchedule.py)
+* 210. [Course Schedule II](Graph/210_CourseScheduleII.py)
 
 # Combination
 

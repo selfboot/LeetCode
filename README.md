@@ -76,6 +76,8 @@
 * 149. [Max Points on a Line](HashTable/149_MaxPointsOnLine.py)
 * 187. [Repeated DNA Sequences](HashTable/187_RepeatedDNASequences.py)
 * 205. [Isomorphic Strings](HashTable/205_IsomorphicStrings.py)
+* 217. [Contains Duplicate](HashTable/217_ContainsDuplicate.py)
+* 219. [Contains Duplicate II](working/219_ContainsDuplicateII.py)
 
 # [Heap](Heap/)
 * 023. [Merge k Sorted Lists](Heap/23_MergeKSortedLists.py)
@@ -86,6 +88,7 @@
 * 074. Search a 2D Matrix
 * 033. Search in Rotated Sorted Array
 * 081. Search in Rotated Sorted Array II
+* 222. [Count Complete Tree Nodes](BinarySearch/222_CountCompleteTreeNodes.py)
 
 # [Depth-first Search](DepthFirstSearch/)
 
@@ -113,6 +116,7 @@
 * 079. Word Search
 * 093. [Restore IP Addresses](Backtracking/93_RestoreIPAddresses.py)
 * 131. [Palindrome Partitioning](Backtracking/131_PalindromePartitioning.py)
+* 216. [Combination Sum III](Backtracking/216_CombinationSumIII.py)
 
 # [Recursion](Recursion/)
 
@@ -144,6 +148,7 @@
 * 174. [Dungeon Game](DynamicProgramming/174_DungeonGame.py)
 * 188. [Best Time to Buy and Sell Stock IV](DynamicProgramming/188_BestTimeBuySellStockIV.py)
 * 198. [House Robber](DynamicProgramming/198_HouseRobber.py)
+* 221. [Maximal Square](DynamicProgramming/221_MaximalSquare.py)
 
 # [Greedy](Greedy/)
 
@@ -193,6 +198,7 @@
 * 179. [Largest Number](Math/179_LargestNumber.py)
 * 202. [Happy Number](Math/202_HappyNumber.py)
 * 204. [Count Primes](Math/204_CountPrimes.py)
+* 223. [Rectangle Area](Math/223_RectangleArea.py)
 
 # [Bit Manipulation](BitManipulation/)
 
@@ -223,4 +229,7 @@
 
 * 215. [Kth Largest Element in an Array](DivideConquer/215_KthLargestElementArray.py)
 
+# Others
+
+* 220. [Contains Duplicate III](220_ContainsDuplicateIII.py)
 

@@ -160,6 +160,9 @@
 * 094. [Binary Tree Inorder Traversal](Stack/94_BinaryTreeInorderTraversal.py)
 * 150. [Evaluate Reverse Polish Notation](Stack/150_EvaluateReversePolishNotation.py)
 * 155. [Min Stack](Stack/155_MinStack.py)
+* 224. [Basic Calculator](Stack/224_BasicCalculator.py)
+* 225. [Implement Stack using Queues](Stack/225_ImplementStackusingQueues.py)
+* 227. [Basic Calculator II](Stack/227_BasicCalculatorII.py)
 
 #  [Two Pointers](TwoPointers/)
 
@@ -215,4 +218,9 @@
 # DFA
 
 * 065. [Valid Number](DFA/65_ValidNumber.py)
+
+# [Divide and Conquer](DivideConquer/)
+
+* 215. [Kth Largest Element in an Array](DivideConquer/215_KthLargestElementArray.py)
+
 

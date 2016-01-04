@@ -90,6 +90,7 @@
 * 033. Search in Rotated Sorted Array
 * 081. Search in Rotated Sorted Array II
 * 222. [Count Complete Tree Nodes](BinarySearch/222_CountCompleteTreeNodes.py)
+* 230. [Kth Smallest Element in a BST](working/230_KthSmallestElementInBST.py)
 
 # [Depth-first Search](DepthFirstSearch/)
 
@@ -233,4 +234,5 @@
 # Others
 
 * 220. [Contains Duplicate III](220_ContainsDuplicateIII.py)
+* 229.	[Majority Element II](Others/229_MajorityElementII.py)
 

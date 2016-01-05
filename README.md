@@ -170,6 +170,7 @@
 * 224. [Basic Calculator](Stack/224_BasicCalculator.py)
 * 225. [Implement Stack using Queues](Stack/225_ImplementStackusingQueues.py)
 * 227. [Basic Calculator II](Stack/227_BasicCalculatorII.py)
+* 232. [Implement Queue using Stacks](Stack/232_ImplementQueueUsingStacks.py)
 
 #  [Two Pointers](TwoPointers/)
 
@@ -211,6 +212,8 @@
 * 190. [Reverse Bits](BitManipulation/190_ReverseBits.py)
 * 191. [Number of 1 Bits](BitManipulation/191_NumberOf1Bits.py)
 * 201. [Bitwise AND of Numbers Range](BitManipulation/201_BitwiseANDofNumbersRange.py)
+* 231. [Power of Two](BitManipulation/231_PowerOfTwo.py)
+
 
 # [Graph](Graph/)
 

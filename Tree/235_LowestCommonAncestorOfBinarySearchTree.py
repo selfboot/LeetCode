@@ -11,6 +11,7 @@
 #         self.right = None
 
 class Solution(object):
+    # Easy to understand
     def lowestCommonAncestor(self, root, p, q):
         min_val = min(p.val, q.val)
         max_val = max(p.val, q.val)
@@ -23,3 +24,16 @@ class Solution(object):
             else:
                 root = root.right
         return None
+
+
+class Solution_2(object):
+    """
+    One elegant code, some puzzling but short code. according to:
+    https://leetcode.com/discuss/44959/3-lines-with-o-1-space-1-liners-alternatives
+    Just walk down from the whole tree's root as long as
+    both p and q are in the same subtree
+    """
+    def lowestCommonAncestor(self, root, p, q):
+        while (root.val - p.val) * (root.val - q.val) > 0:
+            root = (root.left, root.right)[p.val > root.val]
+        return root

@@ -239,6 +239,8 @@
 # [Divide and Conquer](DivideConquer/)
 
 * 215. [Kth Largest Element in an Array](DivideConquer/215_KthLargestElementArray.py)
+* 240. [Search a 2D Matrix II](DivideConquer/240_Search2DMatrixII.py)
+* 241. [Different Ways to Add Parentheses](DivideConquer/241_DifferentWaysToAddParentheses.py)
 
 # Others
 

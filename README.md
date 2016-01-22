@@ -83,6 +83,7 @@
 * 205. [Isomorphic Strings](HashTable/205_IsomorphicStrings.py)
 * 217. [Contains Duplicate](HashTable/217_ContainsDuplicate.py)
 * 219. [Contains Duplicate II](working/219_ContainsDuplicateII.py)
+* 242. [Valid Anagram](HashTable/242_ValidAnagram.py)
 
 # [Heap](Heap/)
 * 023. [Merge k Sorted Lists](Heap/23_MergeKSortedLists.py)
@@ -208,6 +209,7 @@
 * 223. [Rectangle Area](Math/223_RectangleArea.py)
 * 233. [Number of Digit One](Math/233_NumberOfDigitOne.py)
 * 238. [Product of Array Except Self](Math/238_ProductOfArrayExceptSelf.py)
+* 258. [Add Digits](Math/258_AddDigits.py)
 
 # [Bit Manipulation](BitManipulation/)
 

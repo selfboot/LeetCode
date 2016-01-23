@@ -156,6 +156,7 @@
 * 188. [Best Time to Buy and Sell Stock IV](DynamicProgramming/188_BestTimeBuySellStockIV.py)
 * 198. [House Robber](DynamicProgramming/198_HouseRobber.py)
 * 221. [Maximal Square](DynamicProgramming/221_MaximalSquare.py)
+* 264. [Ugly Number II](DynamicProgramming/264_UglyNumberII.py)
 
 # [Greedy](Greedy/)
 
@@ -210,6 +211,7 @@
 * 233. [Number of Digit One](Math/233_NumberOfDigitOne.py)
 * 238. [Product of Array Except Self](Math/238_ProductOfArrayExceptSelf.py)
 * 258. [Add Digits](Math/258_AddDigits.py)
+* 263. [Ugly Number](Math/263_UglyNumber.py)
 
 # [Bit Manipulation](BitManipulation/)
 
@@ -221,7 +223,7 @@
 * 191. [Number of 1 Bits](BitManipulation/191_NumberOf1Bits.py)
 * 201. [Bitwise AND of Numbers Range](BitManipulation/201_BitwiseANDofNumbersRange.py)
 * 231. [Power of Two](BitManipulation/231_PowerOfTwo.py)
-
+* 260. [Single Number III](BitManipulation/260_SingleNumberIII.py)
 
 # [Graph](Graph/)
 

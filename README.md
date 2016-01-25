@@ -84,6 +84,7 @@
 * 217. [Contains Duplicate](HashTable/217_ContainsDuplicate.py)
 * 219. [Contains Duplicate II](working/219_ContainsDuplicateII.py)
 * 242. [Valid Anagram](HashTable/242_ValidAnagram.py)
+* 274. [H-Index](HashTable/274_H-Index.py)
 
 # [Heap](Heap/)
 * 023. [Merge k Sorted Lists](Heap/23_MergeKSortedLists.py)
@@ -96,6 +97,7 @@
 * 081. Search in Rotated Sorted Array II
 * 222. [Count Complete Tree Nodes](BinarySearch/222_CountCompleteTreeNodes.py)
 * 230. [Kth Smallest Element in a BST](working/230_KthSmallestElementInBST.py)
+* 275. [H-Index II](BinarySearch/275_H-IndexII.py)
 
 # [Depth-first Search](DepthFirstSearch/)
 
@@ -212,6 +214,7 @@
 * 238. [Product of Array Except Self](Math/238_ProductOfArrayExceptSelf.py)
 * 258. [Add Digits](Math/258_AddDigits.py)
 * 263. [Ugly Number](Math/263_UglyNumber.py)
+* 273. [Integer to English Words](Math/273_IntegerToEnglishWords.py)
 
 # [Bit Manipulation](BitManipulation/)
 
@@ -224,6 +227,7 @@
 * 201. [Bitwise AND of Numbers Range](BitManipulation/201_BitwiseANDofNumbersRange.py)
 * 231. [Power of Two](BitManipulation/231_PowerOfTwo.py)
 * 260. [Single Number III](BitManipulation/260_SingleNumberIII.py)
+* 268. [Missing Number](BitManipulation/268_MissingNumber.py)
 
 # [Graph](Graph/)
 

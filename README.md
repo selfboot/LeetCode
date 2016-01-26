@@ -98,6 +98,7 @@
 * 222. [Count Complete Tree Nodes](BinarySearch/222_CountCompleteTreeNodes.py)
 * 230. [Kth Smallest Element in a BST](working/230_KthSmallestElementInBST.py)
 * 275. [H-Index II](BinarySearch/275_H-IndexII.py)
+* 278. [First Bad Version](BinarySearch/278_FirstBadVersion.py)
 
 # [Depth-first Search](DepthFirstSearch/)
 
@@ -159,6 +160,7 @@
 * 198. [House Robber](DynamicProgramming/198_HouseRobber.py)
 * 221. [Maximal Square](DynamicProgramming/221_MaximalSquare.py)
 * 264. [Ugly Number II](DynamicProgramming/264_UglyNumberII.py)
+* 279. [Perfect Squares](DynamicProgramming/279_PerfectSquares.py)
 
 # [Greedy](Greedy/)
 

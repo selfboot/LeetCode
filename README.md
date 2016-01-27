@@ -195,6 +195,8 @@
 * 141. [Linked List Cycle](TwoPointers/141_LinkedListCycle.py)
 * 142. [Linked List Cycle II](TwoPointers/142_LinkedListCycleII.py)
 * 209. [Minimum Size Subarray Sum](TwoPointers/209_MinimumSizeSubarraySum.py)
+* 283. [Move Zeroes](TwoPointers/283_MoveZeroes.py)
+* 287. [Find the Duplicate Number](TwoPointers/287_FindTheDuplicateNumber.py)
 
 # [Math](Math/)
 
@@ -255,6 +257,7 @@
 # Others
 
 * 220. [Contains Duplicate III](220_ContainsDuplicateIII.py)
-* 229.	[Majority Element II](Others/229_MajorityElementII.py)
+* 229. [Majority Element II](Others/229_MajorityElementII.py)
 * 239. [Sliding Window Maximum](Others/239_SlidingWindowMaximum.py)
+* 284. [Peeking Iterator](Others/284_PeekingIterator.py)	
 

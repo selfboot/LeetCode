@@ -11,6 +11,7 @@
 * 164. [Maximum Gap](Array/164_MaximumGap.py)
 * 189. [Rotate Array](Array/189_RotateArray.py)
 * 228. [Summary Ranges](Array/228_SummaryRanges.py)
+* 289. [Game of Life](Array/289_GameOfLife.py)
 
 # [String](String/)
 
@@ -85,6 +86,7 @@
 * 219. [Contains Duplicate II](working/219_ContainsDuplicateII.py)
 * 242. [Valid Anagram](HashTable/242_ValidAnagram.py)
 * 274. [H-Index](HashTable/274_H-Index.py)
+* 290. [Word Pattern](HashTable/290_WordPattern.py)
 
 # [Heap](Heap/)
 * 023. [Merge k Sorted Lists](Heap/23_MergeKSortedLists.py)
@@ -219,6 +221,7 @@
 * 258. [Add Digits](Math/258_AddDigits.py)
 * 263. [Ugly Number](Math/263_UglyNumber.py)
 * 273. [Integer to English Words](Math/273_IntegerToEnglishWords.py)
+* 292. [Nim Game](Math/292_NimGame.py)
 
 # [Bit Manipulation](BitManipulation/)
 

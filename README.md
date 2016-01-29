@@ -71,6 +71,7 @@
 * 226. [Invert Binary Tree](Tree/226_InvertBinaryTree.py)
 * 235. [Lowest Common Ancestor of a Binary Search Tree](Tree/235_LowestCommonAncestorOfBinarySearchTree.py)
 * 236. [Lowest Common Ancestor of a Binary Tree](Tree/236_LowestCommonAncestorOfBinaryTree.py)
+* 297. [Serialize and Deserialize Binary Tree](Tree/297_SerializeAndDeserializeBinaryTree.py)
 
 # [Hash Table](HashTable/)
 
@@ -87,9 +88,11 @@
 * 242. [Valid Anagram](HashTable/242_ValidAnagram.py)
 * 274. [H-Index](HashTable/274_H-Index.py)
 * 290. [Word Pattern](HashTable/290_WordPattern.py)
+* 299. [Bulls and Cows](HashTable/299_BullsAndCows.py)
 
 # [Heap](Heap/)
 * 023. [Merge k Sorted Lists](Heap/23_MergeKSortedLists.py)
+* 295. [Find Median from Data Stream](Heap/295_FindMedianFromDataStream.py)
 
 # [Binary Search](BinarySearch/)
 

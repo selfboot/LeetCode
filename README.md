@@ -112,6 +112,7 @@
 * 129. [Sum Root to Leaf Numbers](DepthFirstSearch/129_SumRootToLeafNumbers.py)
 * 140. [Word Break II](DepthFirstSearch/140_WordBreakII.py)
 * 200. [Number of Islands](DepthFirstSearch/200_NumberofIslands.py)
+* 301. [Remove Invalid Parentheses](DepthFirstSearch/301_RemoveInvalidParentheses.py)
 
 # [Breadth-first Search](BreadthFirstSearch/)
 
@@ -166,6 +167,8 @@
 * 221. [Maximal Square](DynamicProgramming/221_MaximalSquare.py)
 * 264. [Ugly Number II](DynamicProgramming/264_UglyNumberII.py)
 * 279. [Perfect Squares](DynamicProgramming/279_PerfectSquares.py)
+* 303. [Range Sum Query - Immutable](DynamicProgramming/303_RangeSumQueryImmutable.py)
+* 304. [Range Sum Query 2D - Immutable](DynamicProgramming/304_RangeSumQuery2DImmutable.py)
 
 # [Greedy](Greedy/)
 
@@ -249,6 +252,7 @@
 
 * 140. [Word Break II](Combination/140_WordBreakII.py)
 * 146. [LRU Cache](Combination/146_LRUCache.py)
+* 300. [Longest Increasing Subsequence](Combination/300_LongestIncreasingSubsequence.py)
 
 # DFA
 

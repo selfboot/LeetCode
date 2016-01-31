@@ -113,6 +113,7 @@
 * 140. [Word Break II](DepthFirstSearch/140_WordBreakII.py)
 * 200. [Number of Islands](DepthFirstSearch/200_NumberofIslands.py)
 * 301. [Remove Invalid Parentheses](DepthFirstSearch/301_RemoveInvalidParentheses.py)
+* 306. [Additive Number](DepthFirstSearch/306_AdditiveNumber.py)
 
 # [Breadth-first Search](BreadthFirstSearch/)
 
@@ -169,6 +170,7 @@
 * 279. [Perfect Squares](DynamicProgramming/279_PerfectSquares.py)
 * 303. [Range Sum Query - Immutable](DynamicProgramming/303_RangeSumQueryImmutable.py)
 * 304. [Range Sum Query 2D - Immutable](DynamicProgramming/304_RangeSumQuery2DImmutable.py)
+* 309. [Best Time to Buy and Sell Stock with Cooldown](DynamicProgramming/309_BestTimeBuySellStockWithCooldown.py)
 
 # [Greedy](Greedy/)
 
@@ -269,5 +271,6 @@
 * 220. [Contains Duplicate III](220_ContainsDuplicateIII.py)
 * 229. [Majority Element II](Others/229_MajorityElementII.py)
 * 239. [Sliding Window Maximum](Others/239_SlidingWindowMaximum.py)
-* 284. [Peeking Iterator](Others/284_PeekingIterator.py)	
+* 284. [Peeking Iterator](Others/284_PeekingIterator.py)
+* 307. [Range Sum Query - Mutable](Others/307_RangeSumQueryMutable.py)	
 

@@ -44,6 +44,7 @@
 * 203. [Remove Linked List Elements](LinkedList/203_RemoveLinkedListElements.py)
 * 234. [Palindrome Linked List](LinkedList/234_PalindromeLinkedList.py)
 * 237. [Delete Node in a Linked List](LinkedList/237_DeleteNodeInLinkedList.py)
+* 328. [Odd Even Linked List](LinkedList/328_OddEvenLinkedList.py)
 
 # [Tree](Tree/)
 
@@ -230,6 +231,7 @@
 * 263. [Ugly Number](Math/263_UglyNumber.py)
 * 273. [Integer to English Words](Math/273_IntegerToEnglishWords.py)
 * 292. [Nim Game](Math/292_NimGame.py)
+* 326. [Power of Three](Math/326_PowerOfThree.py)
 
 # [Bit Manipulation](BitManipulation/)
 

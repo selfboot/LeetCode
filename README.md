@@ -125,6 +125,7 @@
 * 127. [Word Ladder](BreadthFirstSearch/127_WordLadder.py)
 * 130. [Surrounded Regions](BreadthFirstSearch/130_SurroundedRegions.py)
 * 199. [Binary Tree Right Side View](BreadthFirstSearch/199_BinaryTreeRightSideView.py)
+* 310. [Minimum Height Trees](BreadthFirstSearch/310_MinimumHeightTrees.py)
 
 # [Backtracking](Backtracking/)
 
@@ -178,6 +179,7 @@
 * 055. Jump Game
 * 122. [Best Time to Buy and Sell Stock II](Greedy/122_BestTimeToBuyAndSellStockII.py)
 * 134. [Gas Station](Greedy/134_GasStation.py)
+* 316. [Remove Duplicate Letters](Greedy/316_RemoveDuplicateLetters.py)
 
 # [Stack](Stack/)
 
@@ -192,6 +194,7 @@
 * 225. [Implement Stack using Queues](Stack/225_ImplementStackusingQueues.py)
 * 227. [Basic Calculator II](Stack/227_BasicCalculatorII.py)
 * 232. [Implement Queue using Stacks](Stack/232_ImplementQueueUsingStacks.py)
+* 316. [Remove Duplicate Letters](Stack/316_RemoveDuplicateLetters.py)
 
 #  [Two Pointers](TwoPointers/)
 

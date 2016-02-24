@@ -235,6 +235,7 @@
 * 273. [Integer to English Words](Math/273_IntegerToEnglishWords.py)
 * 292. [Nim Game](Math/292_NimGame.py)
 * 326. [Power of Three](Math/326_PowerOfThree.py)
+* 319. [Bulb Switcher](Math/319_BulbSwitcher.py)
 
 # [Bit Manipulation](BitManipulation/)
 
@@ -248,6 +249,7 @@
 * 231. [Power of Two](BitManipulation/231_PowerOfTwo.py)
 * 260. [Single Number III](BitManipulation/260_SingleNumberIII.py)
 * 268. [Missing Number](BitManipulation/268_MissingNumber.py)
+* 318. [Maximum Product of Word Lengths](BitManipulation/318_MaximumProductOfWordLengths.py)
 
 # [Graph](Graph/)
 

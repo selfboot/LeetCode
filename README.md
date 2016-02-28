@@ -73,6 +73,7 @@
 * 235. [Lowest Common Ancestor of a Binary Search Tree](Tree/235_LowestCommonAncestorOfBinarySearchTree.py)
 * 236. [Lowest Common Ancestor of a Binary Tree](Tree/236_LowestCommonAncestorOfBinaryTree.py)
 * 297. [Serialize and Deserialize Binary Tree](Tree/297_SerializeAndDeserializeBinaryTree.py)
+* 331. [Verify Preorder Serialization of a Binary Tree](Tree/331_VerifyPreorderSerializationOfBinaryTree.py)
 
 # [Hash Table](HashTable/)
 
@@ -126,6 +127,7 @@
 * 130. [Surrounded Regions](BreadthFirstSearch/130_SurroundedRegions.py)
 * 199. [Binary Tree Right Side View](BreadthFirstSearch/199_BinaryTreeRightSideView.py)
 * 310. [Minimum Height Trees](BreadthFirstSearch/310_MinimumHeightTrees.py)
+* 322. [Coin Change](BreadthFirstSearch/322_CoinChange.py)
 
 # [Backtracking](Backtracking/)
 
@@ -180,6 +182,7 @@
 * 122. [Best Time to Buy and Sell Stock II](Greedy/122_BestTimeToBuyAndSellStockII.py)
 * 134. [Gas Station](Greedy/134_GasStation.py)
 * 316. [Remove Duplicate Letters](Greedy/316_RemoveDuplicateLetters.py)
+* 330. [Patching Array](Greedy/330_PatchingArray.py)
 
 # [Stack](Stack/)
 
@@ -262,6 +265,7 @@
 * 140. [Word Break II](Combination/140_WordBreakII.py)
 * 146. [LRU Cache](Combination/146_LRUCache.py)
 * 300. [Longest Increasing Subsequence](Combination/300_LongestIncreasingSubsequence.py)
+* 329. [Longest Increasing Path in a Matrix](Combination/329_LongestIncreasingPathInMatrix.py)
 
 # DFA
 

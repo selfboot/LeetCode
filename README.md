@@ -6,6 +6,7 @@
 * 056. [Merge Intervals](Array/56_MergeIntervals.py)
 * 057. [Insert Interval](Array/57_InsertInterval.py)
 * 059. [Spiral Matrix II](Array/59_SpiralMatrixII.py)
+* 073. [Set Matrix Zeroes](Array/73_SetMatrixZeroes.py)
 * 118. [Pascal's Triangle](Array/118_PascalTriangle.py)
 * 119. [Pascal's Triangle II](Array/119_PascalTriangleII.py) 
 * 164. [Maximum Gap](Array/164_MaximumGap.py)
@@ -32,7 +33,7 @@
 * 024. [Swap Nodes in Pairs](LinkedList/24_SwapNodesInPairs.py)
 * 025. [Reverse Nodes in k-Group](LinkedList/25_ReverseNodesIn-k-Group.py)
 * 061. Rotate List
-* 076. Minimum Window Substring
+* 076. [Minimum Window Substring](LinkedList/76_MinimumWindowSubstring.py)
 * 082. [Remove Duplicates from Sorted List II](LinkedList/82_RemoveDuplicatesFromSortedListII.py)
 * 083. [Remove Duplicates from Sorted List](LinkedList/83_RemoveDuplicatesFromSortedList.py)
 * 086. [Partition List](LinkedList/86_PartitionList.py)
@@ -103,7 +104,7 @@
 # [Binary Search](BinarySearch/)
 
 * 069. Sqrt(x)
-* 074. Search a 2D Matrix
+* 074. [Search a 2D Matrix](BinarySearch/74_Search2DMatrix.py)
 * 033. Search in Rotated Sorted Array
 * 081. [Search in Rotated Sorted Array II](BinarySearch/81_SearchInRotatedSortedArrayII.py)
 * 153. [Find Minimum in Rotated Sorted Array](BinarySearch/153_FindMinimumInRotatedSortedArray.py)
@@ -142,7 +143,7 @@
 * 022. [Generate Parentheses](Backtracking/23_GenerateParentheses.py)
 * 051. N-Queens
 * 052. N-Queens II
-* 079. Word Search
+* 079. [Word Search](Backtracking/79_WordSearch.py)
 * 090. [Subsets II](Backtracking/90_SubsetsII.py)
 * 093. [Restore IP Addresses](Backtracking/93_RestoreIPAddresses.py)
 * 131. [Palindrome Partitioning](Backtracking/131_PalindromePartitioning.py)
@@ -151,7 +152,7 @@
 # [Recursion](Recursion/)
 
 * 060. Permutation Sequence
-* 077. Combinations
+* 077. [Combinations](Recursion/77_Combinations.py)
 * 089. [Gray Code](Recursion/89_GrayCode.py)
 * 101. [Symmetric Tree](Recursion/101_SymmetricTree.py)
 
@@ -161,8 +162,8 @@
 * 053. Maximum Subarray
 * 062. Unique Paths
 * 063. Unique Paths II
-* 070. Climbing Stairs
-* 072. Edit Distance
+* 070. [Climbing Stairs](DynamicProgramming/70_ClimbingStairs.py)
+* 072. [Edit Distance](DynamicProgramming/72_EditDistance.py)
 * 087. [Scramble String](DynamicProgramming/87_ScrambleString.py)
 * 091. [Decode Ways](DynamicProgramming/91_DecodeWays.py)
 * 097. [Interleaving String](DynamicProgramming/97_InterleavingString.py)
@@ -252,7 +253,7 @@
 
 # [Bit Manipulation](BitManipulation/)
 
-* 078. Subsets
+* 078. [Subsets](BitManipulation/78_Subsets.py)
 * 136. [Single Number](BitManipulation/136_SingleNumber.py)
 * 137. [Single Number II](BitManipulation/137_SingleNumberII.py)
 * 169. [Majority Element](BitManipulation/169_MajorityElement.py)

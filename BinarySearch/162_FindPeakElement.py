@@ -16,16 +16,14 @@ class Solution(object):
         right = len(nums) - 1
         left = 0
 
-        while left + 1 < right:
+        while left < right:
             mid = (left + right) / 2
-            # Situation 1 or 3
-            if nums[mid - 1] < nums[mid]:
-                left = mid
-            # Situation 2
+            if nums[mid] < nums[mid+1]:
+                left = mid + 1
             else:
-                right = mid - 1
+                right = mid
 
-        return left if nums[left] > nums[right] else right
+        return left
 
 """
 if __name__ == '__main__':

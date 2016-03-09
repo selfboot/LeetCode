@@ -32,12 +32,13 @@
 * 024. [Swap Nodes in Pairs](LinkedList/24_SwapNodesInPairs.py)
 * 025. [Reverse Nodes in k-Group](LinkedList/25_ReverseNodesIn-k-Group.py)
 * 061. Rotate List
-* 082. Remove Duplicates from Sorted List II
-* 083. Remove Duplicates from Sorted List
 * 076. Minimum Window Substring
+* 082. [Remove Duplicates from Sorted List II](LinkedList/82_RemoveDuplicatesFromSortedListII.py)
+* 083. [Remove Duplicates from Sorted List](LinkedList/83_RemoveDuplicatesFromSortedList.py)
+* 086. [Partition List](LinkedList/86_PartitionList.py)
 * 092. [Reverse Linked List II](LinkedList/92_ReverseLinkedListII.py)
-* 134. [Reorder List](LinkedList/143_ReorderList.py)
 * 138. [Copy List with Random Pointer](LinkedList/138_CopyListWithRandomPointer.py)
+* 143. [Reorder List](LinkedList/143_ReorderList.py)
 * 147. [Insertion Sort List](LinkedList/147_InsertionSortList.py)
 * 148. [Sort List](LinkedList/148_SortList.py)
 * 160. [Intersection of Two Linked Lists](LinkedList/160_IntersectionOfTwoLinkedLists.py)
@@ -101,7 +102,10 @@
 * 069. Sqrt(x)
 * 074. Search a 2D Matrix
 * 033. Search in Rotated Sorted Array
-* 081. Search in Rotated Sorted Array II
+* 081. [Search in Rotated Sorted Array II](BinarySearch/81_SearchInRotatedSortedArrayII.py)
+* 153. [Find Minimum in Rotated Sorted Array](BinarySearch/153_FindMinimumInRotatedSortedArray.py)
+* 154. [Find Minimum in Rotated Sorted Array II](BinarySearch/154_FindMinimumInRotatedSortedArrayII.py)
+* 162. [Find Peak Element](BinarySearch/162_FindPeakElement.py)
 * 222. [Count Complete Tree Nodes](BinarySearch/222_CountCompleteTreeNodes.py)
 * 230. [Kth Smallest Element in a BST](working/230_KthSmallestElementInBST.py)
 * 275. [H-Index II](BinarySearch/275_H-IndexII.py)
@@ -122,6 +126,7 @@
 * 102. [Binary Tree Level Order Traversal](BreadthFirstSearch/102_BinaryTreeLevelOrderTraversal.py)    
 * 103. [Binary Tree Zigzag Level OrderTraversal](BreadthFirstSearch/103_BinaryTreeZigzagLevelOrderTraversal.py)
 * 104. [Maximum Depth Of BinaryTree](BreadthFirstSearch/104_MaximumDepthOfBinaryTree.py)
+* 107. [Binary Tree Level Order Traversal II](BreadthFirstSearch/107_BinaryTreeLevelOrderTraversalII.py)
 * 126. [Word Ladder II](BreadthFirstSearch/126_WordLadderII.py)
 * 127. [Word Ladder](BreadthFirstSearch/127_WordLadder.py)
 * 130. [Surrounded Regions](BreadthFirstSearch/130_SurroundedRegions.py)
@@ -135,6 +140,7 @@
 * 051. N-Queens
 * 052. N-Queens II
 * 079. Word Search
+* 090. [Subsets II](Backtracking/90_SubsetsII.py)
 * 093. [Restore IP Addresses](Backtracking/93_RestoreIPAddresses.py)
 * 131. [Palindrome Partitioning](Backtracking/131_PalindromePartitioning.py)
 * 216. [Combination Sum III](Backtracking/216_CombinationSumIII.py)
@@ -143,7 +149,6 @@
 
 * 060. Permutation Sequence
 * 077. Combinations
-* 087. Scramble String
 * 089. [Gray Code](Recursion/89_GrayCode.py)
 * 101. [Symmetric Tree](Recursion/101_SymmetricTree.py)
 
@@ -155,7 +160,7 @@
 * 063. Unique Paths II
 * 070. Climbing Stairs
 * 072. Edit Distance
-* 087. `Scramble String`
+* 087. [Scramble String](DynamicProgramming/87_ScrambleString.py)
 * 091. [Decode Ways](DynamicProgramming/91_DecodeWays.py)
 * 097. [Interleaving String](DynamicProgramming/97_InterleavingString.py)
 * 115. [Distinct Subsequences](DynamicProgramming/115_DistinctSubsequences.py)
@@ -207,7 +212,8 @@
 * 018. [4Sum](TwoPointers/18_4Sum.py)
 * 019. [Remove Nth Node From End of List](TwoPointers/19_RemoveNthNodeFromEndOfList.py)
 * 075. [Sort Colors](TwoPointers/75_SortColors.py)
-* 080. Remove Duplicates from Sorted Array II
+* 080. [Remove Duplicates from Sorted Array II](TwoPointers/80_RemoveDuplicatesArrayII.py)
+* 088. [Merge Sorted Array](TwoPointers/88_MergeSortedArray.py)
 * 125. [Valid Palindrome](TwoPointers/125_ValidPalindrome.py)
 * 141. [Linked List Cycle](TwoPointers/141_LinkedListCycle.py)
 * 142. [Linked List Cycle II](TwoPointers/142_LinkedListCycleII.py)

@@ -1,6 +1,7 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
-# According to: http://liangjiabin.com/blog/2015/04/leetcode-best-time-to-buy-and-sell-stock.html
+# According to:
+# http://liangjiabin.com/blog/2015/04/leetcode-best-time-to-buy-and-sell-stock.html
 
 
 class Solution(object):
@@ -12,8 +13,8 @@ class Solution(object):
         if not prices:
             return 0
         days_count = len(prices)
-        pre_profit = [0 for i in range(days_count)]
-        post_profit = [0 for j in range(days_count)]
+        pre_profit = [0] * days_count
+        post_profit = [0] * days_count
 
         # Get max profit when buy and sell Stock only once in pre ith day.
         min_buy = prices[0]

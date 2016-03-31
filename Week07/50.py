@@ -1,5 +1,8 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
+# @Author: xuezaigds@gmail.com
+# @Date:   2015-10-20 23:43:28
+# @Last Modified time: 2016-03-26 10:22:44
 
 
 class Solution(object):

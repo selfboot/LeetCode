@@ -1,6 +1,6 @@
 /*
  * @Author: xuezaigds@gmail.com
- * @Last Modified time: 2016-03-31 10:09:26
+ * @Last Modified time: 2016-04-04 22:03:51
  */
 
 class Solution {
@@ -42,11 +42,11 @@ public:
     }
 };
 
-"""
+/*
 [1]
 1
 [3,2,1,5,6,4]
 2
 [1,2,1,3,9]
 2
-"""
+*/

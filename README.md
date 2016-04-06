@@ -1,6 +1,7 @@
 # [Array](Array/)
 
 * 026. [Remove Duplicates from Sorted Array](Array/26_RemoveDuplicatesFromSortedArray.py)
+* 027. [Remove Element](Array/27_RemoveElement.py)
 * 041. [First Missing Positive](Array/41_FirstMissingPositive.py)
 * 054. [Spiral Matrix](Array/54_SpiralMatrix.py)
 * 056. [Merge Intervals](Array/56_MergeIntervals.py)
@@ -20,6 +21,7 @@
 * 008. [String to Integer](String/08_StringtoInteger.py)
 * 014. [Longest Common Prefix](String/14_LongestCommonPrefix.py)
 * 017. [Letter Combinations of a Phone Number](String/17_LetterCombinationsPN.py)
+* 028. [Implement strStr()](String/28_ImplementstrStr.py)
 * 058. Length of Last Word
 * 067. Add Binary
 * 068. Text Justification
@@ -254,6 +256,7 @@
 
 # [Bit Manipulation](BitManipulation/)
 
+* 029. [Divide Two Integers](BitManipulation/29_DivideTwoIntegers.py)
 * 078. [Subsets](BitManipulation/78_Subsets.py)
 * 136. [Single Number](BitManipulation/136_SingleNumber.py)
 * 137. [Single Number II](BitManipulation/137_SingleNumberII.py)

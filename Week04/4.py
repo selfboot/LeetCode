@@ -4,11 +4,6 @@
 
 class Solution(object):
     def findMedianSortedArrays(self, nums1, nums2):
-        """
-        :type nums1: List[int]
-        :type nums2: List[int]
-        :rtype: float
-        """
         length = len(nums1) + len(nums2)
         if length == 0:
             return 0
@@ -50,6 +45,11 @@ class Solution(object):
         else:
             return list_1[half_k_1 - 1]
 
-if __name__ == "__main__":
-    sol = Solution()
-    print sol.findMedianSortedArrays([1], [2,3,4,5,6])
+"""
+[]
+[1]
+[1]
+[2,3,4,5,6]
+[2,3,4]
+[5,6,7]
+"""

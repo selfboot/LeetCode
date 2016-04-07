@@ -5,16 +5,13 @@
 class Solution(object):
     def isMatch(self, s, p):
         """
-        :type s: str
-        :type p: str
-        :rtype: bool
-
         Dynamic Programming
         dp[i][j] represents isMatch(p[0...i], s[0...j]), default is False;
             dp[i][-1] represents isMatch(p[0...i], "")
             dp[-1][j] represents isMatch("", s[0...j])
         """
         if not s:
+            # .*.*.*.* Return True, others return False.
             if len(p) % 2 != 0:
                 return False
             for k in range(1, len(p), 2):
@@ -22,6 +19,7 @@ class Solution(object):
                     return False
             return True
 
+        # dp = [[False] * (len(s)+1)] * (len(p)+1)
         dp = [[False for col in range(len(s)+1)] for row in range(len(p)+1)]
         dp[-1][-1] = True
 
@@ -50,14 +48,19 @@ class Solution(object):
 
         return dp[len(p)-1][len(s)-1]
 
-# if __name__ == '__main__':
-#    so = Solution()
-#    print so.isMatch("aaa", "ab*a")    # False
-#    print so.isMatch("", "c*c*")       # True
-#    print so.isMatch("aaa", "aaaa")    # False
-#    print so.isMatch("aaabc", "a*bc")  # True
-#    print so.isMatch("aab", "c*a*b")   # True
-#    print so.isMatch("ab", ".*c")      # False
-#    print so.isMatch("aaaaabaccbbccababa", "a*b*.*c*c*.*.*.*c")  # False
-#    print so.isMatch("aabbcbcacbacaaccacc", "c*b*b*.*.*.*a*.*")  # True
-#    print so.isMatch("aaaaaaaaaaaaab", "a*a*a*a*a*a*a*a*a*a*c")  # False
+"""
+"aaa"
+"ab*a"
+""
+"c*c*"
+"aaa"
+"aaaa"
+"aaabc"
+"a*bc"
+"aab"
+"c*a*b"
+"ab"
+".*c"
+"aaaaabaccbbccababa"
+"a*b*.*c*c*.*.*.*c"
+"""

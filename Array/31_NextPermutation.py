@@ -4,10 +4,6 @@
 
 class Solution(object):
     def nextPermutation(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: void Do not return anything, modify nums in-place instead.
-        """
         length = len(nums)
         index = length - 1
 
@@ -19,7 +15,7 @@ class Solution(object):
         """
         while index >= 1:
             if nums[index] > nums[index - 1]:
-                for i in range(length - 1, index - 2, -1):
+                for i in range(length - 1, index - 1, -1):
                     if nums[i] > nums[index - 1]:
                         nums[i], nums[index - 1] = nums[index - 1], nums[i]
                         nums[index:] = sorted(nums[index:])
@@ -28,4 +24,12 @@ class Solution(object):
                 index -= 1
 
         # Nums is in descending order, just reverse it.
-        nums[:] = nums[::-1]
+        nums.reverse()
+
+"""
+[]
+[1]
+[1,2,3]
+[3,2,1]
+[1,1,2,2,4,5,5]
+"""

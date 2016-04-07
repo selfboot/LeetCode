@@ -2,6 +2,7 @@
 
 * 026. [Remove Duplicates from Sorted Array](Array/26_RemoveDuplicatesFromSortedArray.py)
 * 027. [Remove Element](Array/27_RemoveElement.py)
+* 031. [Next Permutation](Array/31_NextPermutation.py)
 * 041. [First Missing Positive](Array/41_FirstMissingPositive.py)
 * 054. [Spiral Matrix](Array/54_SpiralMatrix.py)
 * 056. [Merge Intervals](Array/56_MergeIntervals.py)
@@ -161,6 +162,7 @@
 
 # [Dynamic Programming](DynamicProgramming/)
 
+* 010. [Regular Expression Matching](DynamicProgramming/10_RegularExpressionMatching.py)
 * 053. [Maximum Subarray](DynamicProgramming/53_MaximumSubarray.py)
 * 062. Unique Paths
 * 063. Unique Paths II

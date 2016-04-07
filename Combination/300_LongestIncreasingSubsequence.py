@@ -34,7 +34,7 @@ class Solution(object):
                     left = mid + 1
                 else:
                     right = mid
-            # Append the nex number
+            # Append the next number
             dp[right] = n
             # Update size
             if right == size:

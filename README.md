@@ -161,7 +161,7 @@
 
 # [Dynamic Programming](DynamicProgramming/)
 
-* 053. Maximum Subarray
+* 053. [Maximum Subarray](DynamicProgramming/53_MaximumSubarray.py)
 * 062. Unique Paths
 * 063. Unique Paths II
 * 070. [Climbing Stairs](DynamicProgramming/70_ClimbingStairs.py)

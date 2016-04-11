@@ -26,34 +26,32 @@
 
 求m, n 的异或只需要将数组中所有数字异或一遍即可。划分数组可以根据num&2^k 是否为1的结果。
 
-具体代码在 
+[具体实现](https://github.com/xuelangZF/LeetCode/blob/master/BitManipulation/260_SingleNumberIII.py)
 
 ### [338 Counting Bits](https://leetcode.com/problems/counting-bits/)
 
-> 整数的二进制表示中0（或者1）的个数
- 
-实现如下：
+> 给定整数 n，返回长度为 n+1 的数组arr，其中arr[i]为 整数i 的二进制表示中 1 的个数。
 
-    int count_0(int x)
-    {
-        int n=0;
-        while((x+1))
-        {
-            n++;
-            x=x|(x+1);
-        }
-        return n;
+我们知道计算一个整数二进制表示中 1 的个数可以这样来做，
+
+    while(x){
+        count += 1;
+        x = x&(x-1); // 将最低位的1置为0
     }
-    
-    int count_1(int x)
+
+因此，很容易想到利用动态规划的思想来解决这个问题，动态转移方程为：
+
+    ans[i] = ans[i >> 1] + (i&0x1)
+    # ans[i] = ans[i & (i - 1)] + 1
+
+[具体实现](https://github.com/xuelangZF/LeetCode/blob/master/BitManipulation/338_CountingBits.py)
+        
+此外统计一个整数的二进制表示中0的个数可以这样实现：
+
+    while((x+1))
     {
-        int n=0;
-        while(x)
-        {
-            n++;
-            x=x&(x-1);
-        }
-        return n;
+      count++;
+      x=x|(x+1);
     }
 
 

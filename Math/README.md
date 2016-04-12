@@ -26,5 +26,5 @@
 
 
 
-[1]: Images/223_rectangle_area.png
+[1]: ../Images/223_rectangle_area.png
 

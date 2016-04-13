@@ -65,14 +65,5 @@
 
 将二维数组看做是排好序的一维数组，然后按照一般的二分查找即可。注意left,right 开始值分别为 0, rows*cols-1，mid 的坐标为 (mid/cols, mid%cols)。
 
-[具体实现]()
-
-### [240 Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
-
-> 在一个二维数组中，每一行都按照从左到右递增的顺序排序，每一列也是按照从上到下的顺序递增，判断该二维数组中是否存在给定的数字。如下例子：
-
-> [1,   4,  7, 11, 15],  
-> [2,   5,  8, 12, 19],  
-> [3,   6,  9, 16, 22],  
-
+[具体实现](https://github.com/xuelangZF/LeetCode/blob/master/BinarySearch/74_Search2DMatrix.py)
 

@@ -3,33 +3,26 @@
 
 
 class Solution(object):
+    # Don't treat it as a 2D matrix, just treat it as a sorted list
     def searchMatrix(self, matrix, target):
-        """
-        :type matrix: List[List[int]]
-        :type target: int
-        :rtype: bool
-        """
-        if matrix == [[]]:
+        if not matrix:
             return False
 
-        m_rows = len(matrix)
-        n_cols = len(matrix[0])
-        left = 0
-        right = m_rows * n_cols - 1
-        mid = (left + right) / 2
-        while left < right:
-            row = mid / n_cols
-            col = mid - row * n_cols
-            current_num = matrix[row][col]
-            if current_num > target:
+        # Classic binary search: O(logmn)
+        m_rows, n_cols = len(matrix), len(matrix[0])
+        left, right = 0, m_rows * n_cols - 1
+
+        while left <= right:
+            mid = (left+right) / 2
+            num = matrix[mid / n_cols][mid % n_cols]
+            if num > target:
                 right = mid - 1
-            elif current_num < target:
+            elif num < target:
                 left = mid + 1
             else:
                 return True
-            mid = (left + right) / 2
 
-        return matrix[mid/n_cols][mid-(mid/n_cols)*n_cols] == target
+        return False
 
 """
 [[]]

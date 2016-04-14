@@ -10,33 +10,29 @@
 
 class Solution(object):
     def removeNthFromEnd(self, head, n):
-        """
-        :type head: ListNode
-        :type n: int
-        :rtype: ListNode
-        """
-        ptr_1 = 1
-        head_ptr = head
-        # Let the first pointer goto n'th node.
-        while ptr_1 < n:
-            ptr_1 += 1
-            head_ptr = head_ptr.next
+        steps = 0
+        first = head
+        # Let the first pointer goto n+1'th node.
+        while first:
+            first = first.next
+            steps += 1
+            if steps == n+1:
+                break
 
         # the node to be removed is the head node.
-        if not head_ptr.next:
+        if steps < n+1:
             return head.next
 
-        # When head_ptr move 1 step, head just move 1 step too.
-        # And we use pre_node to remember the pre-node of current head.
-        pre_node = head_keep = head
-        while head_ptr.next:
-            pre_node = head
-            head = head.next
-            head_ptr = head_ptr.next
+        # Let second move with first one by one. When first meet the NULL
+        # Second will meet the (N+1)th Node from end of list.
+        second = head
+        while first:
+            first = first.next
+            second = second.next
 
-        # Next node of the pre_node will be removed.
-        pre_node.next = pre_node.next.next
-        return head_keep
+        # Next node of the second will be removed.
+        second.next = second.next.next
+        return head
 
 """
 [1]

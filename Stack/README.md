@@ -28,10 +28,18 @@
 
 4. 模拟递归
 
-# 栈的抽象
+# 题目
 
-# 扩展应用场景
+### [155. Min Stack](https://leetcode.com/problems/min-stack/)  
 
+> 设计一个栈数据结构，支持 push, pop, top, getMin 操作，且时间复杂度均为 O(1)。
+
+用一个栈来实现正常的站操作，同时用一个`辅助栈`来保存每次的最小元素。push 数据时，如果当前数据小于等于最小元素，则同时push到数据栈和辅助栈，保证辅助栈顶部是最小元素。pop 时，如果数据栈顶部等于辅助栈顶，则同时pop，否则只用 pop 数据栈。
+
+当然，用一个栈也是可以的，栈里面内容为当前数据和当前最小值之间的距离，具体可以参考 
+[Share my Java solution with ONLY ONE stack](https://leetcode.com/discuss/15679/share-my-java-solution-with-only-one-stack)。
+
+[具体实现](https://github.com/xuelangZF/LeetCode/blob/master/Stack/155_MinStack.py)
 
 
 [1]: ../Images/stack_demo.png

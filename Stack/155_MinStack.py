@@ -3,53 +3,41 @@
 
 
 class MinStack(object):
+    # According to:
+    # https://leetcode.com/discuss/45373/c-using-two-stacks-quite-short-and-easy-to-understand
     def __init__(self):
-        self.collection = []
-        self.min_num = None
+        self.stack_d = []
+        self.stack_m = []
 
     def push(self, x):
-        if not self.min_num:
-            self.min_num = x
-        if x < self.min_num:
-            self.min_num = x
-        self.collection.append(x)
+        self.stack_d.append(x)
+        if not self.stack_m or x <= self.getMin():
+            self.stack_m.append(x)
 
     def pop(self):
-        if self.collection:
-            pop_num = self.collection.pop()
-            # Update the min_num
-            if pop_num == self.min_num:
-                if self.collection:
-                    self.min_num = self.collection[0]
-                    for num in self.collection:
-                        self.min_num = min(self.min_num, num)
-                else:
-                    self.min_num = None
-            else:
-                pass
+        if self.top() == self.getMin():
+            self.stack_m.pop()
+        self.stack_d.pop()
 
     def top(self):
-        if self.collection:
-            return self.collection[-1]
-        else:
-            return None
+        return self.stack_d[-1]
 
     def getMin(self):
-        return self.min_num
+        return self.stack_m[-1]
 
-""" Test
+'''
 if __name__ == '__main__':
     one_stack = MinStack()
-    one_stack.push(2)
-    one_stack.push(0)
     one_stack.push(3)
-    one_stack.push(0)
+    one_stack.push(4)
+    one_stack.push(2)
+    one_stack.push(1)
 
     print one_stack.getMin()
-    print one_stack.pop()
+    one_stack.pop()
     print one_stack.getMin()
-    print one_stack.pop()
+    one_stack.pop()
     print one_stack.getMin()
-    print one_stack.pop()
+    one_stack.push(0)
     print one_stack.getMin()
-"""
+'''

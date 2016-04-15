@@ -5,14 +5,9 @@
 
 class Solution(object):
     def isUgly(self, num):
-        while num > 1:
-            can_divid = False
-            for factor in [2, 3, 5]:
-                if num % factor == 0:
-                    num /= factor
-                    can_divid = True
-            if not can_divid:
-                return False
+        for p in [2, 3, 5]:
+            while num and num % p == 0:
+                num /= p
         return num == 1
 
 """

@@ -7,12 +7,6 @@
  适用场景：
  最优问题
  
-# 具体例子
-
-87. Scramble String
-
-> “When you see string problem that is about subsequence or matching, dynamic programming method should come to your mind naturally. ”
-
 
 # 如何设计
 
@@ -22,5 +16,12 @@
 1. 分析求解问题的性质，定义问题在某一时刻的状态；2. 找到状态转移方程；
 3. 确定初始状态；
 
+### 题目
 
+## [264 Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)
+
+> 把只含有因子 2、3和5的数称作丑数（Ugly Number），求按照从小到大的顺序第 1500 个丑数。例如6、8都是丑数，但14不是。习惯上把1当作是第一个丑数。
+
+
+[具体实现](https://github.com/xuelangZF/LeetCode/blob/master/DynamicProgramming/264_UglyNumberII.py)
 

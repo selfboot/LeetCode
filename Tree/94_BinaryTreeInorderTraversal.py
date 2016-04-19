@@ -10,14 +10,8 @@
 
 
 class Solution(object):
+    # iteratively
     def inorderTraversal(self, root):
-        """
-        :type root: TreeNode
-        :rtype: List[int]
-        """
-        if not root:
-            return []
-
         tree_stack = []
         inorder_tra = []
         while root or tree_stack:
@@ -27,14 +21,25 @@ class Solution(object):
                 root = root.left
             # Meet a left, go back to the parent node
             else:
-                if not tree_stack:
-                    root = None
-                    continue
                 node = tree_stack.pop()
                 inorder_tra.append(node.val)
                 root = node.right
 
         return inorder_tra
+
+
+class Solution_2(object):
+    # recursively
+    def inorderTraversal(self, root):
+        inorder_tra = []
+        self.helper(root, inorder_tra)
+        return inorder_tra
+
+    def helper(self, root, inorder_tra):
+        if root:
+            self.helper(root.left, inorder_tra)
+            inorder_tra.append(root.val)
+            self.helper(root.right, inorder_tra)
 
 """
 []

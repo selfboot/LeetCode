@@ -10,16 +10,33 @@
 
 树的操作基本上都有递归和非递归两个版本。
 
+
 ## 遍历
 
+深度优先：
+
 前根遍历
-中跟遍历
+中根遍历
+
+
+    def inorderTraversal(self, root):
+        tree_stack = []
+        inorder_tra = []
+        while root or tree_stack:
+            # Go along the left child
+            if root:
+                tree_stack.append(root)
+                root = root.left
+            # Meet a left, go back to the parent node
+            else:
+                node = tree_stack.pop()
+                inorder_tra.append(node.val)
+                root = node.right
+
+        return inorder_tra
+
 后根遍历
-层级遍历
 
-## 搜索
-
-深度优先搜索
 124
 
 
@@ -39,8 +56,7 @@
 
 构建二叉树：递归构建，找到当前根，然后递归求出左子树的根和右子树的根，并建立父子关系。如下面题目：
 
-* 108. [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problemset/algorithms/)
-
+108
 
 恢复二叉树
 
@@ -49,7 +65,7 @@
 
 ### [113 Path Sum II](https://leetcode.com/problems/path-sum-ii/)
 
-
+### [108 Convert Sorted Array to Binary Search Tree](https://leetcode.com/problemset/algorithms/)
 
 
 # 更多阅读

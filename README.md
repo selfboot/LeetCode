@@ -144,6 +144,7 @@
 # [Backtracking](Backtracking/)
 
 * 022. [Generate Parentheses](Backtracking/23_GenerateParentheses.py)
+* 046. [Permutations](Backtracking/46_Permutations.py) 
 * 051. N-Queens
 * 052. N-Queens II
 * 079. [Word Search](Backtracking/79_WordSearch.py)

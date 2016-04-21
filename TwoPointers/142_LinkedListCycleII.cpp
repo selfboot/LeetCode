@@ -1,15 +1,19 @@
-#! /usr/bin/env python
-# -*- coding: utf-8 -*-
+/*
+ * @Author: xuezaigds@gmail.com
+ * @Last Modified time: 2016-04-21 11:29:55
+ */
 
-
-# Definition for singly-linked list.
-# class ListNode(object):
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
-
-class Solution(object):
-    """
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
+class Solution {
+public:
+    /*
     Two pointers: one go 1 step, another one go 2 steps every time.
     Then if the list has a cycle, fast one will meet the slow one absolutely.
     Prove as follows:
@@ -30,21 +34,27 @@ class Solution(object):
     Assume before the node from head and the slow node meet, they go x steps.
     Then (x-m) mode k = (x+i) mod k, the minest x will be m clearly.
     Just remember we have proved:  (m + i) mode k == 0 before.
-    """
-    def detectCycle(self, head):
-        has_cycle = False
-        one_step = head
-        two_steps = head
-        while two_steps and two_steps.next:
-            one_step = one_step.next
-            two_steps = two_steps.next.next
-            if one_step == two_steps:
-                has_cycle = True
-                break
-        if not has_cycle:
-            return None
-        two_steps = head
-        while two_steps != one_step:
-            one_step = one_step.next
-            two_steps = two_steps.next
-        return one_step
+    */
+    ListNode *detectCycle(ListNode *head) {
+        bool hasCycle=false;
+        ListNode* fast = head;
+        ListNode* slow = head;
+        while(fast && fast->next){
+            fast=fast->next->next;
+            slow=slow->next;
+            if(slow==fast){
+                hasCycle=true;
+                break;
+            }
+        }
+        if(!hasCycle){
+            return NULL;
+        }
+        slow = head;
+        while(slow!=fast){
+            slow=slow->next;
+            fast=fast->next;
+        }
+        return slow;
+    }
+};

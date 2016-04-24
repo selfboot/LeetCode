@@ -1,36 +1,29 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Author: xuezaigds@gmail.com
-from Queue import Queue
+from collections import deque
 
 
 class Stack(object):
     def __init__(self):
-        self.queue = Queue()
+        self._queue = deque()
 
     def push(self, x):
-        self.queue.put(x)
+        # Pushing to back and
+        # then rotating the queue until the new element is at the front
+        q = self._queue
+        q.append(x)
+        for i in xrange(len(q) - 1):
+            q.append(q.popleft())
 
     def pop(self):
-        q_keep = Queue()
-        while not self.queue.empty():
-            val = self.queue.get()
-            if self.queue.empty():
-                break
-            else:
-                q_keep.put(val)
-        self.queue = q_keep
+        self._queue.popleft()
 
     def top(self):
-        q_keep = Queue()
-        while not self.queue.empty():
-            val = self.queue.get()
-            q_keep.put(val)
-        self.queue = q_keep
-        return val
+        return self._queue[0]
 
     def empty(self):
-        return self.queue.empty()
+        return not len(self._queue)
 
 """Test
 if __name__ == '__main__':

@@ -11,37 +11,18 @@
 
 class Solution(object):
     def levelOrder(self, root):
-        """
-        :type root: TreeNode
-        :rtype: List[List[int]]
-        """
         if not root:
             return []
 
-        node_list = [root]
-        level_traversal = [[root.val]]
+        cur_level, ans = [root], []
 
-        # Breadth-first Search
-        while node_list:
-            # node_scan: all the nodes in one level.
-            # Traverse node_scan and get all the nodes of next level,
-            # Then update node_list, and the solution level_traversal
-            node_scan = node_list[:]
-            node_list = []
-            node_level = []
-            for node in node_scan:
-                l_child = node.left
-                r_child = node.right
-                if l_child:
-                    node_level.append(l_child.val)
-                    node_list.append(l_child)
-                if r_child:
-                    node_level.append(r_child.val)
-                    node_list.append(r_child)
-            if node_level:
-                level_traversal.append(node_level)
+        # Breadth-first Search, Pythonic way.
+        while cur_level:
+            ans.append([node.val for node in cur_level])
+            cur_level = [kid for n in cur_level
+                         for kid in (n.left, n.right) if kid]
 
-        return level_traversal
+        return ans
 
 """
 []

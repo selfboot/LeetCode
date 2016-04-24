@@ -4,31 +4,34 @@
 
 
 class Queue(object):
+    """
+    Use python list as the underlying data structure for stack.
+    Add a "move()" method to simplify code: it moves all elements
+    of the "inStack" to the "outStack" when the "outStack" is empty.
+    """
     def __init__(self):
-        self.data = []
+        self.in_stack, self.out_stack = [], []
 
     def push(self, x):
-        self.data.append(x)
+        self.in_stack.append(x)
 
     def pop(self):
-        data_keep = []
-        while self.data:
-            val = self.data.pop()
-            if self.data:
-                data_keep.append(val)
-        while data_keep:
-            self.data.append(data_keep.pop())
+        self.move()
+        self.out_stack.pop()
 
     def peek(self):
-        data_copy = self.data[:]
-        val = data_copy.pop()
-        while data_copy:
-            val = data_copy.pop()
-        return val
+        self.move()
+        return self.out_stack[-1]
 
     def empty(self):
-        return not self.data
+        return (not self.in_stack) and (not self.out_stack)
 
+    def move(self):
+        if not self.out_stack:
+            while self.in_stack:
+                self.out_stack.append(self.in_stack.pop())
+
+'''
 if __name__ == '__main__':
     q = Queue()
     q.push(2)
@@ -40,3 +43,4 @@ if __name__ == '__main__':
     q.pop()
     q.pop()
     print q.empty()
+'''

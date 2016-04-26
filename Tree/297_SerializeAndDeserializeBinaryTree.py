@@ -4,11 +4,11 @@
 
 
 # Definition for a binary tree node.
-class TreeNode(object):
-    def __init__(self, x):
-        self.val = x
-        self.left = None
-        self.right = None
+# class TreeNode(object):
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
 
 
 # The leetcode way
@@ -62,6 +62,36 @@ class Codec:
             cur_pos += 1
 
         return node_list[0]
+
+
+class Codec_2:
+    # Refer to: Recursive preorder, Python and C++, O(n)
+    # https://leetcode.com/discuss/66147/recursive-preorder-python-and-c-o-n
+    def serialize(self, root):
+        def helper(node):
+            if node:
+                vals.append(str(node.val))
+                helper(node.left)
+                helper(node.right)
+            else:
+                vals.append('#')
+
+        vals = []
+        helper(root)
+        return ' '.join(vals)
+
+    def deserialize(self, data):
+        def helper():
+            val = next(vals)
+            if val == '#':
+                return None
+            node = TreeNode(int(val))
+            node.left = helper()
+            node.right = helper()
+            return node
+
+        vals = iter(data.split())
+        return helper()
 
 # Your Codec object will be instantiated and called as such:
 # codec = Codec()

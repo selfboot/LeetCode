@@ -4,31 +4,28 @@
 
 class Solution(object):
     def findMin(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
-        no_dup_nums = [nums[0]]
-        for num in nums:
-            if num != no_dup_nums[-1]:
-                no_dup_nums.append(num)
-
+        assert(nums)
         left = 0
-        right = len(no_dup_nums)-1
+        right = len(nums) - 1
+        # Make sure right is always in the right rotated part.
+        # Left can be either in the left part or the minimum part.
+        # So, when left and right is the same finally, we find the minimum.
         while left < right:
             # When there is no rotate, just return self.nums[start]
-            if no_dup_nums[left] < no_dup_nums[right]:
-                return no_dup_nums[left]
+            if nums[left] < nums[right]:
+                return nums[left]
 
-            mid = (left+right) / 2
-            if no_dup_nums[left] < no_dup_nums[mid]:
+            mid = (left + right) / 2
+            # mid is in the left part, so move the left point to mid.
+            if nums[left] < nums[mid]:
                 left = mid + 1
-            elif (no_dup_nums[left] > no_dup_nums[mid] and
-                    no_dup_nums[right] > no_dup_nums[mid]):
+            elif nums[left] > nums[mid]:
                 right = mid
+            # Can't make sure whether left is in the left part or not.
+            # Just move to right for 1 step.
             else:
-                return no_dup_nums[right]
-        return no_dup_nums[left]
+                left += 1
+        return nums[left]
 
 """
 [1]

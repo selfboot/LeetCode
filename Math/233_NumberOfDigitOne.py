@@ -13,7 +13,7 @@ class Solution(object):
         else:
             units = n % 10
             tens = n / 10
-            count = self.countDigitOne(tens-1) * 10 + tens
+            count = self.countDigitOne(tens - 1) * 10 + tens
             n /= 10
             while n:
                 if n % 10 == 1:

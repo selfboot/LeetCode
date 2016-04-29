@@ -1,6 +1,6 @@
 /*
  * @Author: xuezaigds@gmail.com
- * @Last Modified time: 2016-04-11 14:30:46
+ * @Last Modified time: 2016-04-29 13:51:57
  */
 
 /**
@@ -15,7 +15,7 @@
 class Solution {
 public:
     bool isSymmetric(TreeNode* root) {
-        return root==NULL || helper(root->left, root->right);
+        return helper(root, root);
     }
 
     bool helper(TreeNode* lNode, TreeNode* rNode){

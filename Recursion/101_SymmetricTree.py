@@ -11,7 +11,7 @@
 
 class Solution(object):
     def isSymmetric(self, root):
-        return not root or self.helper(root.left, root.right)
+        return self.helper(root, root)
 
     # If two nodes are symmetric
     def helper(self, lNode, rNode):

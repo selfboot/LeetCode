@@ -1,5 +1,8 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
+# @Author: xuezaigds@gmail.com
+# @Last Modified time: 2016-04-29 17:15:38
+
 
 # Definition for singly-linked list.
 # class ListNode(object):
@@ -8,50 +11,42 @@
 #         self.next = None
 
 
+# Recursively
 class Solution(object):
     def deleteDuplicates(self, head):
-        """
-        :type head: ListNode
-        :rtype: ListNode
-        """
-        keep_node = distinct_node = ListNode("guard")
-        distinct_node.next = head
+        if not head or not head.next:
+            return head
+        if head.val == head.next.val:
+            while head.next and head.val == head.next.val:
+                head = head.next
+            return self.deleteDuplicates(head.next)
+        else:
+            head.next = self.deleteDuplicates(head.next)
+            return head
 
-        # distinct_node: the node only occur once.
-        # dis_next_node: always the node occur after distinct_node
-        while distinct_node.next:
-            dis_next_node = distinct_node.next
-            if dis_next_node.next:
-                next_node = dis_next_node.next
-                is_duplicate = False
 
-                # Skip the duplicates of dis_next_node.
-                while next_node.val == dis_next_node.val:
-                    is_duplicate = True
-                    if next_node.next:
-                        next_node = next_node.next
-                    else:
-                        next_node = None
-                        break
-                # Make the new dis_next_node occur after distinct_node.
-                if is_duplicate:
-                    dis_next_node = next_node
-                    distinct_node.next = dis_next_node
-
-                # Find one node without duplicate.
-                else:
-                    distinct_node.next = dis_next_node
-                    distinct_node = distinct_node.next
-            # If one node is the last node of the link, then it's distinct.
+# Iteraively
+class Solution_2(object):
+    def deleteDuplicates(self, head):
+        cur = pre_head = ListNode(0)
+        while head:
+            if head.next and head.val == head.next.val:
+                # Skip the duplicated nodes.
+                while head.next and head.val == head.next.val:
+                    head = head.next
+                head = head.next
+            # we can make sure head is one single node here.
             else:
-                distinct_node.next = dis_next_node
-                break
-
-        return keep_node.next
+                cur.next = head
+                cur = cur.next
+                head = head.next
+        cur.next = None     # Make sure the cur here is the tail: [1,2,2]
+        return pre_head.next
 
 """
 []
 [1]
+[1,2,2]
 [3,3,3,3,3]
 [1,1,1,2,3,4,4,4,4,5]
 """

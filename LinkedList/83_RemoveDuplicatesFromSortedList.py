@@ -1,5 +1,8 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
+# @Author: xuezaigds@gmail.com
+# @Last Modified time: 2016-04-29 16:18:37
+
 
 # Definition for singly-linked list.
 # class ListNode(object):
@@ -7,37 +10,28 @@
 #         self.val = x
 #         self.next = None
 
+
+# Recursively
+class Solution_2(object):
+    def deleteDuplicates(self, head):
+        if not head or not head.next:
+            return head
+        head.next = self.deleteDuplicates(head.next)
+        return head.next if head.val == head.next.val else head
+
+
+# Iteratively
 class Solution(object):
     def deleteDuplicates(self, head):
-        """
-        :type head: ListNode
-        :rtype: ListNode
-        """
-        if not head:
-            return []
+        cur = head
+        while cur:
+            # Skip all the duplicated nodes of cur.
+            while cur.next and cur.val == cur.next.val:
+                cur.next = cur.next.next
+            # No duplicated nodes, move cur to next node
+            cur = cur.next
 
-        start_node = head
-        while head.next:
-            next_node = head.next
-            next_val = next_node.val
-            while head.val == next_val:
-                if next_node.next:
-                    next_node = next_node.next
-                    next_val = next_node.val
-                # When scan to the tail, next_node should be None
-                else:
-                    next_node = None
-                    break
-            # If there is no next_node, change the link and break
-            if not next_node:
-                head.next = None
-                break
-
-            # Find the no duplicate next node, move head to it.
-            head.next = next_node
-            head = head.next
-
-        return start_node
+        return head
 
 """
 []

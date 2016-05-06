@@ -16,11 +16,11 @@ class Solution(object):
         while first:
             first = first.next
             steps += 1
-            if steps == n+1:
+            if steps == n + 1:
                 break
 
         # the node to be removed is the head node.
-        if steps < n+1:
+        if steps < n + 1:
             return head.next
 
         # Let second move with first one by one. When first meet the NULL

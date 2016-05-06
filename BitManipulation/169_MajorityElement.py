@@ -5,7 +5,7 @@
 class Solution(object):
     def majorityElement(self, nums):
         nums.sort()
-        return nums[len(nums)/2]
+        return nums[len(nums) / 2]
 
     # Boyer–Moore majority vote algorithm. Refer to:
     # https://en.wikipedia.org/wiki/Boyer–Moore_majority_vote_algorithm
@@ -27,7 +27,7 @@ class Solution(object):
         num_hash = {}
         for num in nums:
             num_hash[num] = num_hash.get(num, 0) + 1
-            if num_hash[num] > num_len/2:
+            if num_hash[num] > num_len / 2:
                 return num
 
     # Bit manipulation

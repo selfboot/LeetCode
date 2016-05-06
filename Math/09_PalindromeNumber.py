@@ -4,32 +4,21 @@
 
 class Solution(object):
     def isPalindrome(self, x):
-        """
-        :type x: int
-        :rtype: bool
-        """
         if x < 0:
             return False
+        reversed_x = 0
+        original_x = x
+        while x > 0:
+            reversed_x = reversed_x * 10 + x % 10
+            x /= 10
+        return reversed_x == original_x
 
-        divide = 1
-        while x / divide >= 10:
-            divide = divide * 10
 
-        # Compare the highest digit and lowest digit recursively.
-        while divide >= 10:
-            low_digit = x % 10
-            high_digit = x / divide
-            if low_digit != high_digit:
-                return False
+# Pythonic way.
+class Solution_2(object):
+    def isPalindrome(self, x):
+        return x >= 0 and str(x) == str(x)[::-1]
 
-            # Get a new x which delete the highest and lowest digit.
-            x = x / 10
-            divide = divide / 10
-            x = x % divide
-            # Update the divide.
-            divide = divide / 10
-
-        return True
 
 """
 9

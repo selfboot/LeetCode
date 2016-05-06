@@ -16,7 +16,7 @@ class Solution(object):
 
         # We start search the matrix from top right corner
         # Initialize the current position to top right corner.
-        row, col = 0, n-1
+        row, col = 0, n - 1
         while row < m and col >= 0:
             if matrix[row][col] == target:
                 return True

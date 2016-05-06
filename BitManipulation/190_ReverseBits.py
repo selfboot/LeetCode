@@ -33,7 +33,9 @@ class Solution(object):
         n = ((n & 0xaaaaaaaa) >> 1) | ((n & 0x55555555) << 1) & 0xffffffff
         return n
 
+'''
 if __name__ == '__main__':
     sol = Solution()
     print sol.reverseBits(43261596)
     print sol.reverseBits_2(43261596)
+'''

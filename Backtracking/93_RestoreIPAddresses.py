@@ -31,7 +31,7 @@ class Solution(object):
 
         # Current field is '0'
         if s[0] == "0":
-            address_1 = self.restoreAddress(s[1:], count+1)
+            address_1 = self.restoreAddress(s[1:], count + 1)
             for block in address_1:
                 cur_address = ['0']
                 cur_address.extend(block)
@@ -43,7 +43,7 @@ class Solution(object):
         for i in range(1, 4):
             if len(s) < i or int(s[:i]) > 255:
                 continue
-            address_1 = self.restoreAddress(s[i:], count+1)
+            address_1 = self.restoreAddress(s[i:], count + 1)
             for block in address_1:
                 cur_address = [s[:i]]
                 cur_address.extend(block)

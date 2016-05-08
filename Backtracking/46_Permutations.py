@@ -13,7 +13,7 @@ class Solution(object):
         if not nums:
             ans.append(path)
         for i, n in enumerate(nums):
-            self.dfs(nums[:i]+nums[i+1:], path+[n], ans)
+            self.dfs(nums[:i] + nums[i + 1:], path + [n], ans)
 
 
 class Solution_2(object):
@@ -22,7 +22,7 @@ class Solution_2(object):
     def permute(self, nums):
         return [[n] + p
                 for i, n in enumerate(nums)
-                for p in self.permute(nums[:i] + nums[i+1:])] or [[]]
+                for p in self.permute(nums[:i] + nums[i + 1:])] or [[]]
 
 """
 []

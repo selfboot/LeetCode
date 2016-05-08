@@ -58,7 +58,8 @@ class Solution(object):
         return True
 
 """
-if __name__ == '__main__':
-    sol = Solution()
-    print sol.solveNQueens(2)
+0
+1
+5
+
 """

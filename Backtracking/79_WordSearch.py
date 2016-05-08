@@ -3,13 +3,7 @@
 
 
 class Solution(object):
-
     def exist(self, board, word):
-        """
-        :type board: List[List[str]]
-        :type word: str
-        :rtype: bool
-        """
         if not board and word:
             return False
         if not word:
@@ -66,13 +60,13 @@ class Solution(object):
         col = cur_pos[1]
         adj_list = []
         if row - 1 >= 0:
-            adj_list.append([row-1, col])
+            adj_list.append([row - 1, col])
         if row + 1 < m_rows:
-            adj_list.append([row+1, col])
+            adj_list.append([row + 1, col])
         if col - 1 >= 0:
-            adj_list.append([row, col-1])
+            adj_list.append([row, col - 1])
         if col + 1 < n_cols:
-            adj_list.append([row, col+1])
+            adj_list.append([row, col + 1])
         return adj_list
 
 """

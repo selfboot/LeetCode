@@ -22,12 +22,12 @@ class Solution(object):
         # Get the new num from start
         start = 1
         if nums:
-            start = nums[-1]+1
+            start = nums[-1] + 1
         for i in range(start, 10):
             cur_sum = sum(nums) + i
             if cur_sum <= n:
                 nums.append(i)
-                self._combination_sum(k-1, n, nums)
+                self._combination_sum(k - 1, n, nums)
                 del nums[-1]    # Backtracking
             else:
                 break

@@ -1,6 +1,6 @@
 
 
-## 常用位操作
+# 常用位操作
 
 
 
@@ -13,9 +13,9 @@
 * 返回 x，y中的最小值：y^((x^y) & -(x < y))
 
 
-## 题目
+# 例子：更好的理解
 
-### [260 Single Number III](https://leetcode.com/problems/single-number-iii/)
+## [260 Single Number III](https://leetcode.com/problems/single-number-iii/)
 
 > 一个整型数组里除了两个数字之外，其他的数字都出现了两次。请写程序找出这两个只出现一次的数字。
 
@@ -29,7 +29,7 @@
 
 [具体实现](https://github.com/xuelangZF/LeetCode/blob/master/BitManipulation/260_SingleNumberIII.py)
 
-### [338 Counting Bits](https://leetcode.com/problems/counting-bits/)
+## [338 Counting Bits](https://leetcode.com/problems/counting-bits/)
 
 > 给定整数 n，返回长度为 n+1 的数组arr，其中arr[i]为 整数i 的二进制表示中 1 的个数。
 
@@ -58,5 +58,9 @@
 
 # 参考  
 [你不知道的按位运算](http://selfboot.cn/2015/09/23/something_about_bit_operation/)  
-[Leetcode Discuss](https://leetcode.com/discuss/52351/accepted-java-space-easy-solution-with-detail-explanations)
+[Leetcode Discuss](https://leetcode.com/discuss/52351/accepted-java-space-easy-solution-with-detail-explanations)  
+[位运算简介及实用技巧（一）：基础篇](http://www.matrix67.com/blog/archives/263)  
+[位运算简介及实用技巧（二）：进阶篇(1)](http://www.matrix67.com/blog/archives/264)  
+[位运算简介及实用技巧（三）：进阶篇(2)](http://www.matrix67.com/blog/archives/266)  
+[位运算简介及实用技巧（四）：实战篇](http://www.matrix67.com/blog/archives/268)
 

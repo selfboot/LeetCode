@@ -69,7 +69,13 @@
 
 # 例子：更好的理解
 
+## [N 皇后](https://leetcode.com/problems/n-queens/)
 
+很多人都知道 `8皇后问题`，即在8X8格的国际象棋上摆放八个皇后，使其不能互相攻击，即任意两个皇后都不能处于同一行、同一列或同一斜线上。一种可能的放置方法法如下：
+
+![][4]
+
+现在，将此问题扩展为有 N 个皇后，放在 N*N 的格子里，求一共有多少种方法。
 
 
 # 参考  
@@ -79,4 +85,6 @@
 [1]: ../Images/Backtracking_1.png
 [2]: ../Images/Backtracking_2.png
 [3]: ../Images/Backtracking_3.png
+[4]: ../Images/Backtracking_4.png
+
 

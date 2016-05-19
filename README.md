@@ -204,6 +204,7 @@
 # [Stack](Stack/)
 
 * 020. [Valid Parentheses](Stack/20_ValidParentheses.py)
+* 032. [Longest Valid Parentheses](Stack/32_LongestValidParentheses.py)
 * 071. [Simplify Path](Stack/71_SimplifyPath.py)
 * 084. [Largest Rectangle in Histogram](Stack/84_LargestRectangleInHistogram.py)
 * 085. [Maximal Rectangle](Stack/85_MaximalRectangle.py)

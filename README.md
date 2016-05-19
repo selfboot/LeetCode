@@ -165,6 +165,7 @@
 # [Dynamic Programming](DynamicProgramming/)
 
 * 010. [Regular Expression Matching](DynamicProgramming/10_RegularExpressionMatching.py)
+* 032. [Longest Valid Parentheses](DynamicProgramming/32_LongestValidParentheses.py)
 * 053. [Maximum Subarray](DynamicProgramming/53_MaximumSubarray.py)
 * 062. Unique Paths
 * 063. Unique Paths II

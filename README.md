@@ -106,6 +106,7 @@
 
 # [Binary Search](BinarySearch/)
 
+* 034. [Search for a Range](BinarySearch/34_SearchForRange.py)
 * 069. Sqrt(x)
 * 074. [Search a 2D Matrix](BinarySearch/74_Search2DMatrix.py)
 * 033. Search in Rotated Sorted Array

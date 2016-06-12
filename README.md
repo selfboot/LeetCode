@@ -241,6 +241,7 @@
 * 009. [Palindrome Number](Math/09_PalindromeNumber.py)
 * 012. [Integer to Roman](Math/12_IntegertoRoman.py)
 * 013. [Roman to Integer](Math/13_RomantoInteger.py)
+* 048. [Rotate Image](Math/48_RotateImage.py)
 * 066. [Plus One](Math/66_PlusOne.py)
 * 069. Sqrt(x)
 * 166. [Fraction to Recurring Decimal](Math/166_FractionToRecurringDecimal.py)

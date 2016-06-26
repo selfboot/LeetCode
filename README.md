@@ -87,6 +87,7 @@
 * 001. [Two Sum](HashTable/01_TwoSum.py)
 * 003. [Longest Substring Without Repeating Characters](HashTable/03_LongestSubstringWithoutRepeatingCharacters.py)
 * 018. `4Sum`
+* 049. [Group Anagrams](HashTable/49_GroupAnagrams.py)
 * 128. [Longest Consecutive Sequence](HashTable/128_LongestConsecutiveSequence.py)
 * 146. [LRU Cache](HashTable/146_LRUCache_pythonic.py)
 * 149. [Max Points on a Line](HashTable/149_MaxPointsOnLine.py)

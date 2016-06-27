@@ -23,7 +23,7 @@
 * 014. [Longest Common Prefix](String/14_LongestCommonPrefix.py)
 * 017. [Letter Combinations of a Phone Number](String/17_LetterCombinationsPN.py)
 * 028. [Implement strStr()](String/28_ImplementstrStr.py)
-* 058. Length of Last Word
+* 058. [Length of Last Word](String/58_LengthOfLastWord.py)
 * 067. Add Binary
 * 068. Text Justification
 * 151. [Reverse Words in a String](String/151_ReverseWordsInString.py)

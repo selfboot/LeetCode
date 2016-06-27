@@ -197,7 +197,7 @@
 
 # [Greedy](Greedy/)
 
-* 055. Jump Game
+* 055. [Jump Game](Greedy/55_JumpGame.py)
 * 122. [Best Time to Buy and Sell Stock II](Greedy/122_BestTimeToBuyAndSellStockII.py)
 * 134. [Gas Station](Greedy/134_GasStation.py)
 * 316. [Remove Duplicate Letters](Greedy/316_RemoveDuplicateLetters.py)

@@ -6,10 +6,6 @@ class Solution(object):
     countNQueens = 0
 
     def totalNQueens(self, n):
-        """
-        :type n: int
-        :rtype: int
-        """
         self.countNQueens = 0
         cols_used = [-1 for i in range(n)]
         self.solveNQueens(0, cols_used, n)

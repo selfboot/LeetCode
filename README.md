@@ -35,7 +35,7 @@
 * 021. [Merge Two Sorted Lists](LinkedList/21_MergeTwoSortedLists.py)
 * 024. [Swap Nodes in Pairs](LinkedList/24_SwapNodesInPairs.py)
 * 025. [Reverse Nodes in k-Group](LinkedList/25_ReverseNodesIn-k-Group.py)
-* 061. Rotate List
+* 061. [Rotate List](LinkedList/61_RotateList.py)
 * 076. [Minimum Window Substring](LinkedList/76_MinimumWindowSubstring.py)
 * 082. [Remove Duplicates from Sorted List II](LinkedList/82_RemoveDuplicatesFromSortedListII.py)
 * 083. [Remove Duplicates from Sorted List](LinkedList/83_RemoveDuplicatesFromSortedList.py)

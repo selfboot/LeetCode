@@ -169,8 +169,8 @@
 * 010. [Regular Expression Matching](DynamicProgramming/10_RegularExpressionMatching.py)
 * 032. [Longest Valid Parentheses](DynamicProgramming/32_LongestValidParentheses.py)
 * 053. [Maximum Subarray](DynamicProgramming/53_MaximumSubarray.py)
-* 062. Unique Paths
-* 063. Unique Paths II
+* 062. [Unique Paths](DynamicProgramming/62_UniquePaths.py)
+* 063. [Unique Paths II](DynamicProgramming/63_UniquePathsII.py)
 * 070. [Climbing Stairs](DynamicProgramming/70_ClimbingStairs.py)
 * 072. [Edit Distance](DynamicProgramming/72_EditDistance.py)
 * 087. [Scramble String](DynamicProgramming/87_ScrambleString.py)

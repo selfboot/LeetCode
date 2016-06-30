@@ -4,15 +4,13 @@
 
 class Solution(object):
     def isNumber(self, s):
+        """DFA
+
+        Details can be found here:
+        https://github.com/xuelangZF/LeetCode/blob/master/Images/65_ValidNumber.png
+        https://github.com/xuelangZF/LeetCode/blob/master/Images/65_StateConvert.png
         """
-        :type s: str
-        :rtype: bool
-        """
-        # Pre-process: delete the pre-spaces and tail-spaces
-        while s and s[0] == " ":
-            s = s[1:]
-        while s and s[-1] == " ":
-            s = s[:-1]
+        s = s.strip()
         if not s:
             return False
 

@@ -26,6 +26,7 @@
 * 058. [Length of Last Word](String/58_LengthOfLastWord.py)
 * 067. [Add Binary](String/67_AddBinary.py)
 * 068. Text Justification
+* 069. [Sqrt(x)](BinarySearch/69_Sqrt_x.py)
 * 151. [Reverse Words in a String](String/151_ReverseWordsInString.py)
 * 165. [Compare Version Numbers](String/165_CompareVersionNumbers.py)
 

@@ -285,6 +285,7 @@
 * 268. [Missing Number](BitManipulation/268_MissingNumber.py)
 * 318. [Maximum Product of Word Lengths](BitManipulation/318_MaximumProductOfWordLengths.py)
 * 338. [Counting Bits](BitManipulation/338_CountingBits.py)
+* 371. [Sum of Two Integers](BitManipulation/371_SumOfTwoIntegers.py)
 
 # [Graph](Graph/)
 

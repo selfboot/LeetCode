@@ -1,6 +1,6 @@
 /*
  * @Author: xuezaigds@gmail.com
- * @Last Modified time: 2016-07-02 14:50:42
+ * @Last Modified time: 2016-07-02 16:21:11
  */
 
 /**
@@ -38,3 +38,8 @@ public:
     }
 };
 
+/*
+[]
+[3,4,5,1,3,null,1]
+[3,2,3,null,3,null,1]
+*/

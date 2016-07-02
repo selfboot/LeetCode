@@ -101,6 +101,7 @@
 * 274. [H-Index](HashTable/274_H-Index.py)
 * 290. [Word Pattern](HashTable/290_WordPattern.py)
 * 299. [Bulls and Cows](HashTable/299_BullsAndCows.py)
+* 349. [Intersection of Two Arrays](HashTable/349_IntersectionOfTwoArrays.py)
 
 # [Heap](Heap/)
 * 023. [Merge k Sorted Lists](Heap/23_MergeKSortedLists.py)

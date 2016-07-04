@@ -292,6 +292,7 @@
 * 318. [Maximum Product of Word Lengths](BitManipulation/318_MaximumProductOfWordLengths.py)
 * 338. [Counting Bits](BitManipulation/338_CountingBits.py)
 * 371. [Sum of Two Integers](BitManipulation/371_SumOfTwoIntegers.py)
+* 342. [Power of Four](BitManipulation/342_PowerOfFour.py)
 
 # [Graph](Graph/)
 

@@ -274,6 +274,7 @@
 * 326. [Power of Three](Math/326_PowerOfThree.py)
 * 319. [Bulb Switcher](Math/319_BulbSwitcher.py)
 * 335. [Self Crossing](Math/335_SelfCrossing.py)
+* 343. [Integer Break](Math/343_IntegerBreak.py)
 
 # [Bit Manipulation](BitManipulation/)
 

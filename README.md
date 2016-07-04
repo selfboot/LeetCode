@@ -122,6 +122,7 @@
 * 230. [Kth Smallest Element in a BST](working/230_KthSmallestElementInBST.py)
 * 275. [H-Index II](BinarySearch/275_H-IndexII.py)
 * 278. [First Bad Version](BinarySearch/278_FirstBadVersion.py)
+* 367. [Valid Perfect Square](BinarySearch/367_ValidPerfectSquare.py)
 
 # [Depth-first Search](DepthFirstSearch/)
 

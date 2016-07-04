@@ -29,6 +29,7 @@
 * 069. [Sqrt(x)](BinarySearch/69_Sqrt_x.py)
 * 151. [Reverse Words in a String](String/151_ReverseWordsInString.py)
 * 165. [Compare Version Numbers](String/165_CompareVersionNumbers.py)
+* 344. [Reverse String](String/344_ReverseString.py)
 
 # [Linked List](LinkedList/)
 

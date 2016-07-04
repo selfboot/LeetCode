@@ -242,6 +242,8 @@
 * 209. [Minimum Size Subarray Sum](TwoPointers/209_MinimumSizeSubarraySum.py)
 * 283. [Move Zeroes](TwoPointers/283_MoveZeroes.py)
 * 287. [Find the Duplicate Number](TwoPointers/287_FindTheDuplicateNumber.py)
+* 345. [Reverse Vowels of a String](TwoPointers/345_ReverseVowelsOfString.py)
+
 
 # [Math](Math/)
 

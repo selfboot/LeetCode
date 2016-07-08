@@ -202,6 +202,7 @@
 * 309. [Best Time to Buy and Sell Stock with Cooldown](DynamicProgramming/309_BestTimeBuySellStockWithCooldown.py)
 * 337. [House Robber III](DynamicProgramming/337_HouseRobberIII.py)
 * 368. [Largest Divisible Subset](DynamicProgramming/368_LargestDivisibleSubset.py)
+* 357. [Count Numbers with Unique Digits](DynamicProgramming/357_CountNumbersWithUniqueDigits.py)
 
 # [Greedy](Greedy/)
 

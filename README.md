@@ -108,6 +108,7 @@
 # [Heap](Heap/)
 * 023. [Merge k Sorted Lists](Heap/23_MergeKSortedLists.py)
 * 295. [Find Median from Data Stream](Heap/295_FindMedianFromDataStream.py)
+* 347. [Top K Frequent Elements](Heap/347_TopKFrequentElements.py)
 
 # [Binary Search](BinarySearch/)
 

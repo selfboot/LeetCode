@@ -228,6 +228,7 @@
 * 227. [Basic Calculator II](Stack/227_BasicCalculatorII.py)
 * 232. [Implement Queue using Stacks](Stack/232_ImplementQueueUsingStacks.py)
 * 316. [Remove Duplicate Letters](Stack/316_RemoveDuplicateLetters.py)
+* 341. [Flatten Nested List Iterator](Stack/341_FlattenNestedListIterator.py)
 
 #  [Two Pointers](TwoPointers/)
 

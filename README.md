@@ -201,6 +201,7 @@
 * 303. [Range Sum Query - Immutable](DynamicProgramming/303_RangeSumQueryImmutable.py)
 * 304. [Range Sum Query 2D - Immutable](DynamicProgramming/304_RangeSumQuery2DImmutable.py)
 * 309. [Best Time to Buy and Sell Stock with Cooldown](DynamicProgramming/309_BestTimeBuySellStockWithCooldown.py)
+* 313. [Super Ugly Number](DynamicProgramming/313_SuperUglyNumber.py)
 * 337. [House Robber III](DynamicProgramming/337_HouseRobberIII.py)
 * 368. [Largest Divisible Subset](DynamicProgramming/368_LargestDivisibleSubset.py)
 * 357. [Count Numbers with Unique Digits](DynamicProgramming/357_CountNumbersWithUniqueDigits.py)

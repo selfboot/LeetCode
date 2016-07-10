@@ -26,7 +26,6 @@
 * 058. [Length of Last Word](String/58_LengthOfLastWord.py)
 * 067. [Add Binary](String/67_AddBinary.py)
 * 068. Text Justification
-* 069. [Sqrt(x)](BinarySearch/69_Sqrt_x.py)
 * 151. [Reverse Words in a String](String/151_ReverseWordsInString.py)
 * 165. [Compare Version Numbers](String/165_CompareVersionNumbers.py)
 * 344. [Reverse String](String/344_ReverseString.py)
@@ -112,10 +111,11 @@
 
 # [Binary Search](BinarySearch/)
 
-* 034. [Search for a Range](BinarySearch/34_SearchForRange.py)
-* 069. Sqrt(x)
-* 074. [Search a 2D Matrix](BinarySearch/74_Search2DMatrix.py)
+* 004. [Median of Two Sorted Arrays](BinarySearch/4_MedianOfTwoSortedArrays.py)
 * 033. Search in Rotated Sorted Array
+* 034. [Search for a Range](BinarySearch/34_SearchForRange.py)
+* 069. [Sqrt(x)](BinarySearch/69_Sqrt_x.py)
+* 074. [Search a 2D Matrix](BinarySearch/74_Search2DMatrix.py)
 * 081. [Search in Rotated Sorted Array II](BinarySearch/81_SearchInRotatedSortedArrayII.py)
 * 153. [Find Minimum in Rotated Sorted Array](BinarySearch/153_FindMinimumInRotatedSortedArray.py)
 * 154. [Find Minimum in Rotated Sorted Array II](BinarySearch/154_FindMinimumInRotatedSortedArrayII.py)

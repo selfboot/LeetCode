@@ -112,7 +112,7 @@
 # [Binary Search](BinarySearch/)
 
 * 004. [Median of Two Sorted Arrays](BinarySearch/4_MedianOfTwoSortedArrays.py)
-* 033. Search in Rotated Sorted Array
+* 033. [Search in Rotated Sorted Array](BinarySearch/33_SearchInRotatedSortedArray.py)
 * 034. [Search for a Range](BinarySearch/34_SearchForRange.py)
 * 069. [Sqrt(x)](BinarySearch/69_Sqrt_x.py)
 * 074. [Search a 2D Matrix](BinarySearch/74_Search2DMatrix.py)

@@ -4,11 +4,6 @@
 
 class Solution(object):
     def search(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: int
-        """
         nums_size = len(nums)
         start = 0
         end = nums_size - 1

@@ -306,6 +306,7 @@
 
 # Combination
 
+* 030. [Substring with Concatenation of All Words](Combination/30_SubstringWithConcatenationOfAllWords.py)
 * 140. [Word Break II](Combination/140_WordBreakII.py)
 * 146. [LRU Cache](Combination/146_LRUCache.py)
 * 300. [Longest Increasing Subsequence](Combination/300_LongestIncreasingSubsequence.py)

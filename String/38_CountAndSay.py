@@ -3,11 +3,12 @@
 
 
 class Solution(object):
+    """ Quite straight-forward solution.
+
+    We generate k-th string, and from k-th string we generate k+1-th string,
+    until we generate n-th string.
+    """
     def countAndSay(self, n):
-        """
-        :type n: int
-        :rtype: str
-        """
         if n <= 1:
             return "1"
 
@@ -16,23 +17,26 @@ class Solution(object):
             # Get the ith count-and-say sequence by scan pre_str
             length = len(pre_str)
             current_str = ""
-            index = 0
 
             # Count and say the pre_str
+            index = 0
             while index < length:
                 char = pre_str[index]
                 repeat = 0
-                pos = repeat + index + 1
+                pos = index + 1
                 while pos < length and pre_str[pos] == char:
                     repeat += 1
-                    pos = repeat + index + 1
+                    pos += 1
 
-                if repeat:
-                    current_str = current_str + str(repeat + 1) + char
-                else:
-                    current_str = current_str + "1" + char
-                index = index + repeat + 1
+                current_str += str(repeat + 1) + char
+                index = pos
 
             pre_str = current_str
 
         return pre_str
+
+"""
+1
+5
+15
+"""

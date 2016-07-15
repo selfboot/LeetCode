@@ -1,6 +1,6 @@
 /*
  * @Author: xuezaigds@gmail.com
- * @Last Modified time: 2016-07-14 20:03:04
+ * @Last Modified time: 2016-07-14 20:32:51
  */
 
 class Solution {
@@ -9,7 +9,7 @@ public:
     Classic backtracking problem.
 
     One key point: for one specified number,
-    just scan the number larger than it to avoid duplicate combinations.
+    just scan itself and numbers larger than it to avoid duplicate combinations.
     Besides, the current path need to be reset after dfs call in general.
     Refer to:
     https://discuss.leetcode.com/topic/23142/python-dfs-solution

@@ -1,12 +1,13 @@
 /*
  * @Author: xuezaigds@gmail.com
- * @Last Modified time: 2016-07-13 21:09:57
+ * @Last Modified time: 2016-07-17 10:15:37
  */
 
 class Solution
 {
 public:
-    /*
+    /* Hash Table
+    Use three 9*9 array to keep the used numbers in row, col, panel.
     According to:
     https://discuss.leetcode.com/topic/8241/my-short-solution-by-c-o-n2
     */

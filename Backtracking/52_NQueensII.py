@@ -23,6 +23,24 @@ class Solution(object):
                 cols_used[row] = -1
 
     def isValid(self, row, col, cols_used, n):
+        """ Can check isvalid with using hash, implemented by c++.
+
+        Refer to:
+        https://discuss.leetcode.com/topic/13617/accepted-4ms-c-solution-use-backtracking-and-bitmask-easy-understand
+        The number of columns is n, the number of 45° diagonals is 2 * n - 1,
+        the number of 135° diagonals is also 2 * n - 1.
+        When reach [row, col], the column No. is col,
+        the 45° diagonal No. is row + col and the 135° diagonal No. is n - 1 + col - row.
+
+        | | |                / / /             \ \ \
+        O O O               O O O               O O O
+        | | |              / / / /             \ \ \ \
+        O O O               O O O               O O O
+        | | |              / / / /             \ \ \ \
+        O O O               O O O               O O O
+        | | |              / / /                 \ \ \
+        3 columns        5 45° diagonals     5 135° diagonals    (when n is 3)
+        """
         for i in range(row):
             # Check for the according col above the current row.
             if cols_used[i] == col:
@@ -38,7 +56,7 @@ class Solution(object):
         return True
 
 """
-if __name__ == '__main__':
-    sol = Solution()
-    print sol.totalNQueens(8)
+1
+5
+8
 """

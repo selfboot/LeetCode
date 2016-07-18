@@ -1,3 +1,4 @@
+
 # [Array](Array/)
 
 * 026. [Remove Duplicates from Sorted Array](Array/26_RemoveDuplicatesFromSortedArray.py)
@@ -157,8 +158,8 @@
 * 039. [Combination Sum](Backtracking/39_CombinationSum.py)
 * 046. [Permutations](Backtracking/46_Permutations.py) 
 * 047. [Permutations II](Backtracking/47_PermutationsII.py)
-* 051. N-Queens
-* 052. N-Queens II
+* 051. [N-Queens](Backtracking/51_NQueens.py)
+* 052. [N-Queens II](Backtracking/52_NQueensII.py)
 * 079. [Word Search](Backtracking/79_WordSearch.py)
 * 090. [Subsets II](Backtracking/90_SubsetsII.py)
 * 093. [Restore IP Addresses](Backtracking/93_RestoreIPAddresses.py)

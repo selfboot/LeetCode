@@ -27,7 +27,7 @@
 * 038. [Count and Say](String/38_CountAndSay.py)
 * 058. [Length of Last Word](String/58_LengthOfLastWord.py)
 * 067. [Add Binary](String/67_AddBinary.py)
-* 068. Text Justification
+* 068. [Text Justification](String/68_TextJustification.py)
 * 151. [Reverse Words in a String](String/151_ReverseWordsInString.py)
 * 165. [Compare Version Numbers](String/165_CompareVersionNumbers.py)
 * 344. [Reverse String](String/344_ReverseString.py)

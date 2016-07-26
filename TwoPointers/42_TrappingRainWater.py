@@ -4,9 +4,12 @@
 
 class Solution(object):
     def trap(self, height):
-        """
-        :type height: List[int]
-        :rtype: int
+        """ For each bar, calculate its left and right highest elevation.
+
+        Then calculating total area by sum of each bar's height*width.
+
+        There is a brilliant solution in discuss:
+        https://discuss.leetcode.com/topic/5125/sharing-my-simple-c-code-o-n-time-o-1-space
         """
 
         # Get the left highest elevation of each bar
@@ -34,3 +37,10 @@ class Solution(object):
                 water += min_side - height[i]
 
         return water
+
+"""
+[]
+[3,0,0,3]
+[1,1,1,2,2,1,1]
+[0,1,0,2,1,0,1,3,2,1,2,1]
+"""

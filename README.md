@@ -178,6 +178,7 @@
 
 * 010. [Regular Expression Matching](DynamicProgramming/10_RegularExpressionMatching.py)
 * 032. [Longest Valid Parentheses](DynamicProgramming/32_LongestValidParentheses.py)
+* 044. [Wildcard Matching](DynamicProgramming/44_WildcardMatching.py)
 * 053. [Maximum Subarray](DynamicProgramming/53_MaximumSubarray.py)
 * 062. [Unique Paths](DynamicProgramming/62_UniquePaths.py)
 * 063. [Unique Paths II](DynamicProgramming/63_UniquePathsII.py)
@@ -212,6 +213,7 @@
 
 # [Greedy](Greedy/)
 
+* 045. [Jump Game II](Greedy/45_JumpGameII.py)
 * 055. [Jump Game](Greedy/55_JumpGame.py)
 * 122. [Best Time to Buy and Sell Stock II](Greedy/122_BestTimeToBuyAndSellStockII.py)
 * 134. [Gas Station](Greedy/134_GasStation.py)
@@ -242,6 +244,7 @@
 * 016. [3Sum Closest](TwoPointers/16_3SumClosest.py)
 * 018. [4Sum](TwoPointers/18_4Sum.py)
 * 019. [Remove Nth Node From End of List](TwoPointers/19_RemoveNthNodeFromEndOfList.py)
+* 042. [Trapping Rain Water](TwoPointers/42_TrappingRainWater.py)
 * 075. [Sort Colors](TwoPointers/75_SortColors.py)
 * 080. [Remove Duplicates from Sorted Array II](TwoPointers/80_RemoveDuplicatesArrayII.py)
 * 088. [Merge Sorted Array](TwoPointers/88_MergeSortedArray.py)
@@ -261,6 +264,7 @@
 * 012. [Integer to Roman](Math/12_IntegertoRoman.py)
 * 013. [Roman to Integer](Math/13_RomantoInteger.py)
 * 048. [Rotate Image](Math/48_RotateImage.py)
+* 043. [Multiply Strings](Math/43_MultiplyStrings.py)
 * 050. [Pow(x, n)](Math/50_Pow.py)
 * 060. [Permutation Sequence](Math/60_PermutationSequence.py)
 * 066. [Plus One](Math/66_PlusOne.py)

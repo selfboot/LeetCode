@@ -33,8 +33,11 @@ WikiPedia 里对 DFS 的说明如下：
 
 [Clone Graph](https://leetcode.com/problems/clone-graph/) 是一个图的复制问题，可以用 DFS 来遍历图中所有的顶点。
 
+# 例子，更好的理解
 
-更多阅读
+## 282. Expression Add Operators
+
+# 更多阅读
 
 [Depth-first search](https://en.wikipedia.org/wiki/Depth-first_search)
 

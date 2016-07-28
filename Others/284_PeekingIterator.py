@@ -38,6 +38,8 @@ class PeekingIterator(object):
 
     def hasNext(self):
         return self.temp is not None
+        # return not self.temp
+
 
 # Your PeekingIterator object will be instantiated and called as such:
 # iter = PeekingIterator(Iterator(nums))

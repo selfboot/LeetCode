@@ -8,9 +8,11 @@ class Solution(object):
     def findKthLargest(self, nums, k):
         return sorted(nums)[-k]
 
+
+class Solution_2(object):
     # QuickSelect, according to:
     # http://www.cs.yale.edu/homes/aspnes/pinewiki/QuickSelect.html
-    def findKthLargest_2(self, nums, k):
+    def findKthLargest(self, nums, k):
         pivot = nums[0]
         nums1, nums2 = [], []
         for num in nums:

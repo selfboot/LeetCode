@@ -1,4 +1,3 @@
-
 # [Array](Array/)
 
 * 026. [Remove Duplicates from Sorted Array](Array/26_RemoveDuplicatesFromSortedArray.py)

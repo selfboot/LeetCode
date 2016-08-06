@@ -17,5 +17,5 @@
 
 [数据结构之图](https://www.zybuluo.com/guoxs/note/249812)
 
-[1]: ../Image/Graph_1.png
+[1]: ../Images/Graph_1.png
 

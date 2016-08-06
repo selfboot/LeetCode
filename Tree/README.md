@@ -138,6 +138,6 @@ AVL树的特性让二叉搜索树的节点实现平衡(balance)：节点相对�
 [The Tree Data Model](http://infolab.stanford.edu/~ullman/focs/ch05.pdf)  
 
 
-[1]: ../image/Tree_1.jpg
-[2]: ../image/Tree_2.jpg
+[1]: ../Images/Tree_1.jpg
+[2]: ../Images/Tree_2.jpg
 

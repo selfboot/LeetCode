@@ -97,6 +97,11 @@
 
 [具体实现](https://github.com/xuelangZF/LeetCode/blob/master/DynamicProgramming/264_UglyNumberII.py)
 
+## 股票问题
+
+121, 122, 123, 188, 309	
+
+
 # 更多阅读
 [fibonacci数列为什么那么重要](https://www.zhihu.com/question/28062458)   
 [Dynamic Programming：From Novice to Advanced](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)  

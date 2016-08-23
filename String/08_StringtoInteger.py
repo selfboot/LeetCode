@@ -3,51 +3,46 @@
 
 
 class Solution(object):
-    def myAtoi(self, str):
+    MAX_INT = 2**31 - 1
+    MIN_INT = - 2**31
+
+    def myAtoi(self, strs):
+        """ We need to handle four cases:
+
+        1. discards all leading whitespaces
+        2. sign of the number
+        3. overflow
+        4. invalid input
         """
-        :type str: str
-        :rtype: int
-        """
-        negative = 1
-        mark = False                # Mark if has a '+' or '-'
-        digit_already = False       # Record if has numerical digits already.
-        digit_char = "0123456789"
-        result = 0
-        for char in str:
-            if char == " " and not mark and not digit_already:
-                continue
+        strs = strs.strip()
+        if not strs:
+            return 0
 
-            if char == "-" and not mark:
-                negative = -1
-                mark = True
-                continue
+        sign, i = 1, 0
+        if strs[i] == '+':
+            i += 1
+        elif strs[i] == '-':
+            i += 1
+            sign = -1
 
-            if char == "+" and not mark:
-                mark = True
-                continue
-
-            if char in digit_char:
-                digit_already = True
-                result = result * 10 + ord(char) - ord('0')
-                continue
-
-            if char not in digit_char and digit_already:
+        num = 0
+        while i < len(strs):
+            if strs[i] < '0' or strs[i] > '9':
                 break
+            if num > self.MAX_INT or (num * 10 + int(strs[i]) > self.MAX_INT):
+                return self.MAX_INT if sign == 1 else self.MIN_INT
+            else:
+                num = num * 10 + int(strs[i])
+            i += 1
 
-            if char not in digit_char and not digit_already:
-                return 0
-
-        result = result * negative
-        if result > 2 ** 31 - 1:
-            return 2147483647
-
-        if result < -2 ** 31:
-            return -2147483648
-
-        return result
+        return num * sign
 
 """
 ""
 "  12a"
 "  a12"
+"  +12"
+"  +-12"
+"2147483648"
+"-2147483648"
 """

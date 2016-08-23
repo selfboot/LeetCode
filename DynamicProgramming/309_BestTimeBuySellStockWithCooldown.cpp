@@ -1,11 +1,12 @@
-#! /usr/bin/env python
-# -*- coding: utf-8 -*-
-# @Author: xuezaigds@gmail.com
+/*
+ * @Author: xuezaigds@gmail.com
+ * @Last Modified time: 2016-08-23 15:09:48
+ */
 
 
-class Solution(object):
-    """ Dynamic Programming.
-
+class Solution {
+public:
+    /* Dynamic Programming.
     A very good explanation come with thinking process is here:
     https://leetcode.com/discuss/71354/share-my-thinking-process
 
@@ -19,23 +20,27 @@ class Solution(object):
         1. No transaction on day i, then buy[i] = buy[i-1]
         2. Buy stock on day i, last sell must berofe i-1 day,
            then buy[i] = sell[i-2] - price
-    """
-    def maxProfit(self, prices):
-        if len(prices) < 2:
-            return 0
-        # There is no need to use array to keep the states. O(1) space is OK.
-        pre_buy, buy, pre_sell, sell = -prices[0], 0, 0, 0
-        for cur_price in prices[1:]:
-            # Here pre_sell is euqal sell[i-2], sell is equal sell[i-1]
-            buy = max(pre_sell - cur_price, pre_buy)
-            pre_sell = sell
-            sell = max(pre_buy + cur_price, pre_sell)
-            pre_buy = buy
-        return sell
+    */
+    int maxProfit(vector<int>& prices) {
+        size_t len = prices.size();
+        if(len <2 ){
+            return 0;
+        }
+        int pre_buy=-prices[0], buy=0, pre_sell=0, sell=0;
+        for(size_t i=1; i<len; i++){
+            // Here pre_sell is euqal sell[i-2], sell is equal sell[i-1]
+            buy = max(pre_buy, pre_sell-prices[i]);
+            pre_sell = sell;
+            sell = max(pre_sell, pre_buy+prices[i]);
+            pre_buy = buy;
+        }
+        return sell;
+    }
+};
 
-"""
+/*
 []
 [1,2,3,0,2]
 [1,2,5,0,2]
 [1,2,5,0,8]
-"""
+*/

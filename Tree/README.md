@@ -49,23 +49,6 @@
 前根遍历  
 中根遍历
 
-
-    def inorderTraversal(self, root):
-        tree_stack = []
-        inorder_tra = []
-        while root or tree_stack:
-            # Go along the left child
-            if root:
-                tree_stack.append(root)
-                root = root.left
-            # Meet a left, go back to the parent node
-            else:
-                node = tree_stack.pop()
-                inorder_tra.append(node.val)
-                root = node.right
-
-        return inorder_tra
-
 后根遍历
 
 124

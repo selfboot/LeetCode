@@ -1,9 +1,14 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
-# According to: http://liangjiabin.com/blog/2015/04/leetcode-best-time-to-buy-and-sell-stock.html
 
 
 class Solution(object):
+    """ Same as "max subarray problem" using Kadane's Algorithm.
+
+    Just need one scan through the array values,
+    computing at each position the max profit ending at that position.
+    https://en.wikipedia.org/wiki/Maximum_subarray_problem
+    """
     def maxProfit(self, prices):
         if not prices:
             return 0
@@ -11,39 +16,25 @@ class Solution(object):
         min_buy = prices[0]
         for price in prices:
             min_buy = min(price, min_buy)
-            max_profit = max(price-min_buy, max_profit)
+            max_profit = max(price - min_buy, max_profit)
         return max_profit
-"""
-# Not readable.
-class Solution(object):
-    def maxProfit(self, prices):
-        if not prices:
-            return 0
-        buy_price = prices[0]
-        sell_price = buy_price
-        max_profit = 0
-        days = len(prices)
-        ith_day = 1
-        while ith_day < days:
-            # The current price is higher than the cost we buy,
-            # so just keep the stock, until the price is lower.
-            if prices[ith_day] >= buy_price:
-                # make the price that we sell the stock be biggest
-                if prices[ith_day] > sell_price:
-                    sell_price = prices[ith_day]
-                else:
-                    pass
-            # Meet a new lower price, so buy the stock
-            else:
-                max_profit = max(max_profit, sell_price - buy_price)
-                buy_price = prices[ith_day]
-                sell_price = buy_price
 
-            ith_day += 1
-        # The price may never be lower than the first day.
-        max_profit = max(max_profit, sell_price - buy_price)
-        return max_profit
-"""
+
+class Solution_2(object):
+    """
+    sell_1: The maximum if we've just sold 1nd stock so far.
+    buy_1: The maximum if we've just buy 1st stock so far.
+
+    Then we can update sell_1 if p + buy_1(sell now) get more than pre-sell_1.
+    And update buy_1 if remain more money when we buy now than pre-buy_1.
+    Here update sell_1 before buy_1 because we need to use pre_buy_1 to get sell_1.
+    """
+    def maxProfit(self, prices):
+        sell_1, buy_1 = 0, -2**31
+        for p in prices:
+            sell_1 = max(sell_1, p + buy_1)
+            buy_1 = max(buy_1, -p)
+        return sell_1
 
 """
 []

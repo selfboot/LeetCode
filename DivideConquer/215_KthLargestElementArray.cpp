@@ -1,10 +1,19 @@
 /*
  * @Author: xuezaigds@gmail.com
- * @Last Modified time: 2016-04-04 22:03:51
+ * @Last Modified time: 2016-08-29 11:18:00
  */
 
 class Solution {
 public:
+    /*
+    Algorithm using partition(looks like quicksort somehow).
+
+    Firstly, initialize left to be 0 and right to be nums.size()
+    Then we do a partition and retrive the pivot position.
+    If position is equal with k, we have got the k-th element.
+    Else if position is less than k, then the K-th element is in the right part.
+    Else, the K-th element in the left part, and we can recursively solve it.
+    */
     int partition(vector<int> &nums, int begin, int end) {
         int pivot = nums[begin];
         int pivot_index = begin;
@@ -21,24 +30,45 @@ public:
     }
 
     int findKthLargest(vector<int> &nums, int k) {
-        return find_k(nums, 0, nums.size(), k);
-    }
+        int left = 0, right = nums.size();
+        if(k>right || k<=0) return -1;
 
-    int find_k(vector<int> &nums, int begin, int end, int k){
-        if( k<=0 || begin>end-1){
-            return -1;
+        while(left < right){
+            int pos = partition(nums, left, right);
+            if(pos == k-1){
+                return nums[pos];
+            }
+            else if(pos > k-1){
+                right = pos;
+            }
+            else{
+                left = pos + 1;
+            }
         }
-        int position = partition(nums, begin, end);
-        int left_length = position-begin;
-        if(left_length== k-1){
-            return nums[position];
+        return -1;
+    }
+};
+
+
+class Solution {
+public:
+    /*
+    Other possibility is to use a min heap that will store the K-th largest values.
+    The algorithm iterates over the whole input and
+    maintains the size of priority queue.
+    */
+    int findKthLargest(vector<int>& nums, int k) {
+        priority_queue<int, std::greater<int>> min_heap;
+        for(int n: nums){
+            if(min_heap.size() < k) min_heap.push(n);
+            else{
+                if(n > min_heap.top()){
+                    min_heap.pop();
+                    min_heap.push(n);
+                }
+            }
         }
-        else if(left_length > k-1){
-            return find_k(nums, begin, position, k);
-        }
-        else{
-            return find_k(nums, position+1, end, k-left_length-1);
-        }
+        return min_heap.top();
     }
 };
 

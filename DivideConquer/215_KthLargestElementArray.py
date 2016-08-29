@@ -12,6 +12,7 @@ class Solution(object):
 class Solution_2(object):
     # QuickSelect, according to:
     # http://www.cs.yale.edu/homes/aspnes/pinewiki/QuickSelect.html
+    # Heap implement by c++ can be found in c++ version.
     def findKthLargest(self, nums, k):
         pivot = nums[0]
         nums1, nums2 = [], []

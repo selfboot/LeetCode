@@ -4,10 +4,6 @@
 
 class Solution(object):
     def sortColors(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: void Do not return anything, modify nums in-place instead.
-        """
         len_n = len(nums)
         # pos_put_0: next position to put 0
         # pos_put_2: next position to put 2
@@ -29,5 +25,7 @@ class Solution(object):
 
 """
 [0]
+[1,0]
+[0,1,2]
 [1,1,1,2,0,0,0,0,2,2,1,1,2]
 """

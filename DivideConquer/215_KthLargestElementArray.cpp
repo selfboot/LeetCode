@@ -1,6 +1,6 @@
 /*
  * @Author: xuezaigds@gmail.com
- * @Last Modified time: 2016-08-29 11:18:00
+ * @Last Modified time: 2016-08-30 09:42:07
  */
 
 class Solution {
@@ -29,28 +29,30 @@ public:
         return pivot_index;
     }
 
-    int findKthLargest(vector<int> &nums, int k) {
-        int left = 0, right = nums.size();
-        if(k>right || k<=0) return -1;
+    int find_kth_number(vector<int> &arr, int k){
+        int begin = 0, end = arr.size();
+        assert(k>0 && k<=end);
 
-        while(left < right){
-            int pos = partition(nums, left, right);
+        int target_num = 0;
+        while (begin < end){
+            int pos = partition(arr, begin, end);
             if(pos == k-1){
-                return nums[pos];
+                target_num = arr[pos];
+                break;
             }
             else if(pos > k-1){
-                right = pos;
+                end = pos;
             }
             else{
-                left = pos + 1;
+                begin = pos + 1;
             }
         }
-        return -1;
+        return target_num;
     }
 };
 
 
-class Solution {
+class Solution_2 {
 public:
     /*
     Other possibility is to use a min heap that will store the K-th largest values.

@@ -8,50 +8,54 @@
 * 递归实现时，检查参数的有效性（low/high参数）；
 * 计算二分查找中的中值时防止溢出；
 * 如何查找第一个/最后一个等值？
- 
+
 # 简单实现
 
 下面来看下简单二分查找（数组中不包含重复数字）的两种实现方案。
 
 递归实现如下：
 
-    // 在 nums[begin, end) 中查找 target
-    int binary_search(const vector<int> &nums, int begin, int end, int target){
-        if(begin<0 || begin>=end || end>nums.size()){
-            return -1;
-        }
-        int mid = begin + (end-1 - begin)/2;
+```c++
+// 在 nums[begin, end) 中查找 target
+int binary_search(const vector<int> &nums, int begin, int end, int target){
+    if(begin<0 || begin>=end || end>nums.size()){
+        return -1;
+    }
+    int mid = begin + (end-1 - begin)/2;
+    if(nums[mid] > target){
+        return binary_search(nums, begin, mid, target);
+    }
+    else if(nums[mid] < target){
+        return binary_search(nums, mid+1, end, target);
+    }
+    else{
+        return mid;
+    }
+}
+```
+
+循环实现如下：
+
+```c++
+int binary_search(const vector<int> &nums, int target){
+    int left = 0;
+    int right = nums.size() - 1;
+    while(left <= right){
+        int mid = left + (right-left) / 2; // 防止溢出
+        // int mid = (left+right)/2  
         if(nums[mid] > target){
-            return binary_search(nums, begin, mid, target);
+            right = mid - 1;
         }
         else if(nums[mid] < target){
-            return binary_search(nums, mid+1, end, target);
+            left = mid + 1;
         }
         else{
             return mid;
         }
     }
-
-循环实现如下：
-
-    int binary_search(const vector<int> &nums, int target){
-        int left = 0;
-        int right = nums.size() - 1;
-        while(left <= right){
-            int mid = left + (right-left) / 2; // 防止溢出
-            // int mid = (left+right)/2  
-            if(nums[mid] > target){
-                right = mid - 1;
-            }
-            else if(nums[mid] < target){
-                left = mid + 1;
-            }
-            else{
-                return mid;
-            }
-        }
-        return -1; // 没有找到target
-    }
+    return -1; // 没有找到target
+}
+```
 
 这里说是二分查找，其实严格来说是三分，mid 值有三种情况，分别是大于、小于、等于，对应这三种情况分别更新 left、right，或者返回最终结果。
 
@@ -61,7 +65,101 @@
 
 **对于排序的数组进行查找，二分查找总是应该首先考虑的解决办法。**
 
-## 1 统计数字在排序数组中出现的次数
+## 统计数字在排序数组中出现的次数
+
+简单思路，先用二分查找算法找到一个 target，由于 target 可能出现多次，于是在找到的位置向左右顺序扫描，分别找出第一个和最后一个 target。最差情况下，扫描的时间复杂度能达到O(n)。因此这种方法和从头到尾扫描整个数组统计出现的次数的方法是一样的，效率不够高。
+
+因此可以考虑用二分查找直接找出重复出现的数字的第一个位置和最后一个位置。找出数字第一次出现位置的实现如下，保证了最坏情况下时间复杂度仍然为 O(logn)：
+
+```c++
+// 在 nums[begin, end) 中查找 target
+int getFirstK(int nums[], int length, int k){
+    int left = 0;
+    int right = length-1;
+    while(left<=right){
+        int mid = left + (right-left)/2;
+        if(nums[mid] < k){
+            left = mid + 1;
+        }
+        else if(nums[mid] > k){
+            right = mid - 1;
+        }
+        else{
+            if(mid > 0 && nums[mid-1] == k){
+                right = mid-1;  // 不断向左逼近
+            }
+            else{
+                return mid;
+            }
+        }
+    }
+    return -1;
+}
+```
+
+找到最后一次出现位置的代码，只需要在 mid == k 时稍作处理即可。
+
+```c++
+if(mid+1 < length && nums[mid+1] == k){
+    left = mid+1;
+}
+```
+
+Leetcode 上面有一个类似的题目，找出目标数字的最先和最后出现：[34 Search for a Range](https://leetcode.com/problems/search-for-a-range/)
+
+## 旋转数组的最小数字
+
+把一个数组最开始的若干个元素搬到数组的末尾，我们称之为数组的旋转。输入一个**非递减序列**的一个旋转，输出旋转数组的最小元素。例如数组{3,4,5,1,2}为{1,2,3,4,5}的一个旋转，该数组的最小值为1。
+
+如果数组中没有重复数字，情况比较简单。可以通过比较 mid 和 left（或者right）的值，如果
+
+1. nums[mid] >= nums[left]: 说明 mid 在旋转数组的左半部分（之所以有=这种情况，是因为 mid 可能等于 left）；
+2. nums[mid] < nums[left]: 说明 mid 在旋转数组的右半部分。
+
+判断出 mid 的位置后，需要恰当地去更新 left，right 的值，更新策略的选择将会直接决定 while 循环结束条件。这里我们让 left 位于旋转数组的左半部分，right位于右半部分，循环条件为 left < right。对于left 的更新每次多向右多移动一个位置：mid+1，right 每次更新为 mid，这样当循环终止时，left和right值相同，并且left指向了最小的数字。
+
+```c++
+int findMin(vector<int>& nums) {
+    int left = 0;
+    int right = nums.size()-1;
+
+    while(left<right){
+        // When there is no rotate, just return self.nums[start]
+        if(nums[left]<nums[right])  return nums[left];
+        int mid = left + (right-left) / 2;
+        if(nums[left] <= nums[mid]){
+            left = mid+1;
+        }
+        else{
+            right = mid;
+        }
+    }
+    return nums[left];
+}
+```
+
+如果数组中有重复的数字，那么情况稍微有点复杂，当nums[mid] == nums[left] 时，我们没法判断 mid 在哪一边，因此选择对 left 进行简单的 +1 操作。
+
+```c++
+int findMin(vector<int>& nums) {
+    int left=0;
+    int right=nums.size()-1;
+    while(left<right){
+        if(nums[left] < nums[right])   return nums[left];
+        int mid = left + (right-left)/2;
+        if(nums[left] < nums[mid]){
+            left = mid+1;
+        }
+        else if(nums[left] > nums[mid]){
+            right = mid;
+        }
+        else{
+            left += 1;
+        }
+    }
+    return nums[left];
+}
+```
 
 简单思路，先用二分查找算法找到一个 target，由于 target 可能出现多次，于是在找到的位置向左右顺序扫描，分别找出第一个和最后一个 target。最差情况下，扫描的时间复杂度能达到O(n)。因此这种方法和从头到尾扫描整个数组统计出现的次数的方法是一样的，效率不够高。
 
@@ -97,59 +195,6 @@
         left = mid+1;
     }
 
-Leetcode 上面有一个类似的题目，找出目标数字的最先和最后出现：[34 Search for a Range](https://leetcode.com/problems/search-for-a-range/)
-
-## 2 旋转数组的最小数字
-
-把一个数组最开始的若干个元素搬到数组的末尾，我们称之为数组的旋转。输入一个**非递减序列**的一个旋转，输出旋转数组的最小元素。例如数组{3,4,5,1,2}为{1,2,3,4,5}的一个旋转，该数组的最小值为1。
-
-如果数组中没有重复数字，情况比较简单。可以通过比较 mid 和 left（或者right）的值，如果
-
-1. nums[mid] >= nums[left]: 说明 mid 在旋转数组的左半部分（之所以有=这种情况，是因为 mid 可能等于 left）；
-2. nums[mid] < nums[left]: 说明 mid 在旋转数组的右半部分。
-
-判断出 mid 的位置后，需要恰当地去更新 left，right 的值，更新策略的选择将会直接决定 while 循环结束条件。这里我们让 left 位于旋转数组的左半部分，right位于右半部分，循环条件为 left < right。对于left 的更新每次多向右多移动一个位置：mid+1，right 每次更新为 mid，这样当循环终止时，left和right值相同，并且left指向了最小的数字。
-
-    int findMin(vector<int>& nums) {
-        int left = 0;
-        int right = nums.size()-1;
-
-        while(left<right){
-            // When there is no rotate, just return self.nums[start]
-            if(nums[left]<nums[right])  return nums[left];
-            int mid = left + (right-left) / 2;
-            if(nums[left] <= nums[mid]){
-                left = mid+1;
-            }
-            else{
-                right = mid;
-            }
-        }
-        return nums[left];
-    }
-
-如果数组中有重复的数字，那么情况稍微有点复杂，当nums[mid] == nums[left] 时，我们没法判断 mid 在哪一边，因此选择对 left 进行简单的 +1 操作。
-
-    int findMin(vector<int>& nums) {
-        int left=0;
-        int right=nums.size()-1;
-        while(left<right){
-            if(nums[left] < nums[right])   return nums[left];
-            int mid = left + (right-left)/2;
-            if(nums[left] < nums[mid]){
-                left = mid+1;
-            }
-            else if(nums[left] > nums[mid]){
-                right = mid;
-            }
-            else{
-                left += 1;
-            }
-        }
-        return nums[left];
-    }
-
-
 ## [74 Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
 
 > 在一个二维数组中，每一行都按照从左到右递增的顺序排序，且每一列第一个数字都比上一列最后一个数字大，判断该二维数组中是否存在给定的数字。如下例子   
@@ -160,10 +205,10 @@ Leetcode 上面有一个类似的题目，找出目标数字的最先和最后�
 
 将二维数组看做是排好序的一维数组，然后按照一般的二分查找即可。注意left,right 开始值分别为 0, rows*cols-1，mid 的坐标为 (mid/cols, mid%cols)。
 
-[具体实现](https://github.com/xuelangZF/LeetCode/blob/master/BinarySearch/74_Search2DMatrix.py)
+[具体代码](https://github.com/xuelangZF/LeetCode/blob/master/BinarySearch/74_Search2DMatrix.py)
 
+# 更多阅读  
 
-# 参考  
 [Binary search algorithm](https://en.wikipedia.org/wiki/Binary_search_algorithm)  
 [数据库中二分查找相关问题](http://hedengcheng.com/?p=595)  
 

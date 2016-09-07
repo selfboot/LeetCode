@@ -44,6 +44,7 @@
 
 ## 二叉树的遍历
 
+
 深度优先：
 
 前根遍历  
@@ -116,7 +117,8 @@ AVL树的特性让二叉搜索树的节点实现平衡(balance)：节点相对�
 
 # 更多阅读
 
-[Tree (data structure)](https://en.wikipedia.org/wiki/Tree_(data_structure))  
+[Wiki: Tree (data structure)](https://en.wikipedia.org/wiki/Tree_(data_structure))   
+[Wiki: Tree traversal](https://en.wikipedia.org/wiki/Tree_traversal)  
 [csci 210: Data Structures Trees](http://www.bowdoin.edu/~ltoma/teaching/cs210/spring09/Slides/210-Trees.pdf)  
 [The Tree Data Model](http://infolab.stanford.edu/~ullman/focs/ch05.pdf)  
 

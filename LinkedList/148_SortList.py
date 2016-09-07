@@ -1,5 +1,7 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
+# @Author: xuezaigds@gmail.com
+# @Last Modified time: 2016-09-06 20:03:53
 
 
 # Definition for singly-linked list.
@@ -8,8 +10,8 @@
 #         self.val = x
 #         self.next = None
 
+# Merge Sort
 class Solution(object):
-    # Merge Sort
     def sortList(self, head):
         if not head or not head.next:
             return head
@@ -27,7 +29,7 @@ class Solution(object):
 
     # Operator merge.
     def merge(self, left_list, right_list):
-        pre_head = dummy = ListNode(0)
+        pre_head = dummy = ListNode(None)
         while left_list and right_list:
             if left_list.val < right_list.val:
                 dummy.next = left_list
@@ -37,16 +39,46 @@ class Solution(object):
                 right_list = right_list.next
             dummy = dummy.next
 
-        if left_list:
-            dummy.next = left_list
-        if right_list:
-            dummy.next = right_list
+        dummy.next = left_list or right_list
 
         return pre_head.next
+
+
+# Quick sort:  Time Limit Exceeded
+class Solution_2(object):
+    def partition(self, begin, end):
+        if not begin or begin.next == end:
+            return begin
+        pivot = begin.val
+        keep, pos = begin, begin
+        scan = begin.next
+        while scan != end:
+            if scan.val <= pivot:
+                pos = pos.next
+                if scan != pos:
+                    scan.val, pos.val = pos.val, scan.val
+            scan = scan.next
+
+        pos.val, keep.val = keep.val, pos.val
+        return pos
+
+    def quick_sort(self, begin, end):
+        if begin == end or begin.next == end:
+            return begin
+
+        pos = self.partition(begin, end)
+        head = self.quick_sort(begin, pos)
+        self.quick_sort(pos.next, end)
+        return head
+
+    def sortList(self, head):
+        return self.quick_sort(head, None)
+
 """
 []
 [1]
 [1,2]
 [5,1,2]
 [5,1,2,3]
+[5,1,2,3,6,7,8,9,12,2]
 """

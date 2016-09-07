@@ -107,5 +107,5 @@
 [Dynamic Programming：From Novice to Advanced](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)  
 [什么是动态规划？动态规划的意义是什么？](https://www.zhihu.com/question/23995189/answer/35429905)   
 [动态规划与状态机：最大子序列和问题的扩展](http://liam0205.me/2016/05/13/dynamic-programming-and-state-machine/)  
-
+[hiho一下第113周《Fibonacci》题目分析](http://hihocoder.com/discuss/question/3634)  
 

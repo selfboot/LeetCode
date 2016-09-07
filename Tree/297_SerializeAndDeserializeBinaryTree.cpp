@@ -1,6 +1,6 @@
 /*
  * @Author: xuezaigds@gmail.com
- * @Last Modified time: 2016-04-27 09:37:16
+ * @Last Modified time: 2016-09-05 08:14:38
  */
 
 /**
@@ -19,15 +19,16 @@ class Codec {
 public:
     // Encodes a tree to a single string.
     string serialize(TreeNode* root) {
-        deque<TreeNode*> nodes{root};
+        queue<TreeNode*> nodes;
+        nodes.push(root);
         string ans="";
         while(!nodes.empty()){
             TreeNode* head=nodes.front();
-            nodes.pop_front();
+            nodes.pop();
             if(head!=NULL){
                 ans+= to_string(head->val)+" ";
-                nodes.push_back(head->left);
-                nodes.push_back(head->right);
+                nodes.push(head->left);
+                nodes.push(head->right);
             }
             else{
                 ans+="null ";

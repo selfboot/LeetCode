@@ -122,6 +122,8 @@ AVL树的特性让二叉搜索树的节点实现平衡(balance)：节点相对�
 [csci 210: Data Structures Trees](http://www.bowdoin.edu/~ltoma/teaching/cs210/spring09/Slides/210-Trees.pdf)  
 [The Tree Data Model](http://infolab.stanford.edu/~ullman/focs/ch05.pdf)  
 
+[Lowest Common Ancestor of a Binary Tree Part I](http://articles.leetcode.com/lowest-common-ancestor-of-a-binary-tree-part-i/)  
+[Lowest Common Ancestor of a Binary Tree Part II](http://articles.leetcode.com/lowest-common-ancestor-of-a-binary-tree-part-ii/)  
 
 [1]: ../Images/Tree_1.jpg
 [2]: ../Images/Tree_2.jpg

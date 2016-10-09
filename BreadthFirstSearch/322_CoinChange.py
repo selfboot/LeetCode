@@ -5,6 +5,7 @@
 # Refer to:
 # https://leetcode.com/discuss/79289/fast-python-branch-bound-solution-beaten-python-submissions
 
+
 class Solution(object):
     def coinChange(self, coins, amount):
         """
@@ -12,12 +13,12 @@ class Solution(object):
         dp[i] is the fewest number of coins making up amount i,
         then for every coin in coins, dp[i] = min(dp[i - coin] + 1).
         """
-        dp = [amount + 1] * (amount+1)
+        dp = [amount + 1] * (amount + 1)
         dp[0] = 0
-        for i in xrange(amount+1):
+        for i in xrange(amount + 1):
             for coin in coins:
                 if coin <= i:
-                    dp[i] = min(dp[i], dp[i-coin]+1)
+                    dp[i] = min(dp[i], dp[i - coin] + 1)
         return -1 if dp[amount] > amount else dp[amount]
 
 
@@ -31,7 +32,7 @@ class Solution_2(object):
         count = 0
 
         # upper bound on number of coins (+1 to represent the impossible case)
-        coins.sort(reverse = True)
+        coins.sort(reverse=True)
         upperBound = amount / coins[-1] + 1
 
         # Use upperBound to pruning.

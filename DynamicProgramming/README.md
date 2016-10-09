@@ -84,8 +84,6 @@
 1. 需要设计数据结构来完成自底向上的计算过程。逻辑上相对不那么直观。 
 2. 常常可以进行空间复杂度的优化。
 
-
-
 # 例子：更好的理解
 
 ## [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)
@@ -100,6 +98,11 @@
 ## 股票问题
 
 121, 122, 123, 188, 309	
+
+
+# 优化
+
+115.Distinct Subsequences  
 
 
 # 更多阅读

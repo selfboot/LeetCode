@@ -20,7 +20,8 @@ class Solution(object):
             return True
 
         # dp = [[False] * (len(s)+1)] * (len(p)+1)
-        dp = [[False for col in range(len(s)+1)] for row in range(len(p)+1)]
+        dp = [[False for col in range(len(s) + 1)]
+              for row in range(len(p) + 1)]
         dp[-1][-1] = True
 
         for i in range(len(p)):
@@ -32,21 +33,22 @@ class Solution(object):
                     3. dp[i][j-1]      # * matches more than one in s.
                 """
                 if p[i] == "*":
-                    m_0 = dp[i-2][j]
-                    m_1 = (p[i-1] == "." or p[i-1] == s[j]) and dp[i-2][j-1]
-                    m_more = (p[i-1] == "." or p[i-1] == s[j]) and dp[i][j-1]
+                    m_0 = dp[i - 2][j]
+                    m_1 = (p[i - 1] == "." or p[i - 1] == s[j]) and dp[i - 2][j - 1]
+                    m_more = (p[i - 1] == "." or p[i - 1] == s[j]) and dp[i][j - 1]
                     dp[i][j] = m_0 or m_1 or m_more
 
                     # p[i] matches "" is equal p[i-2] matches "".
-                    dp[i][-1] = dp[i-2][-1]
+                    dp[i][-1] = dp[i - 2][-1]
 
                 else:
-                    dp[i][j] = (dp[i-1][j-1] and
+                    dp[i][j] = (dp[i - 1][j - 1] and
                                 (p[i] == s[j] or p[i] == "."))
                     # p[i] doesn't match ""
                     dp[i][-1] = False
 
-        return dp[len(p)-1][len(s)-1]
+        return dp[len(p) - 1][len(s) - 1]
+
 
 """
 "aaa"

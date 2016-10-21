@@ -9,19 +9,19 @@ class Solution(object):
         children_nums = len(ratings)
 
         # Scan from left to right
-        for i in range(children_nums-1):
-            if ratings[i+1] > ratings[i]:
-                candies[i+1] = candies[i] + 1
+        for i in range(children_nums - 1):
+            if ratings[i + 1] > ratings[i]:
+                candies[i + 1] = candies[i] + 1
             else:
-                candies[i+1] = 1
+                candies[i + 1] = 1
 
         minimum_candies = 0
         # Scan from right to left
-        for i in range(children_nums-1, 0, -1):
-            if ratings[i-1] > ratings[i]:
-                candies[i-1] = max(candies[i] + 1, candies[i-1])
+        for i in range(children_nums - 1, 0, -1):
+            if ratings[i - 1] > ratings[i]:
+                candies[i - 1] = max(candies[i] + 1, candies[i - 1])
             else:
-                candies[i-1] = max(1, candies[i-1])
+                candies[i - 1] = max(1, candies[i - 1])
             minimum_candies += candies[i]
 
         return minimum_candies + candies[0]
